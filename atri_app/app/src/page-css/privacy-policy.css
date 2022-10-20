@@ -1,0 +1,448 @@
+.p-privacy-policy.Privacy_Body {
+display: flex;
+background-color: ;
+flex-direction: column;
+}
+.p-privacy-policy.Flex167 {
+display: flex;
+background-color: ;
+}
+.p-privacy-policy.Flex165 {
+display: flex;
+flex-grow: 3;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-privacy-policy.Flex166 {
+display: flex;
+flex-grow: 3;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-privacy-policy.Div145 {
+flex-grow: 1;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-privacy-policy.Div149 {
+background-color: ;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.p-privacy-policy.Flex173 {
+display: flex;
+}
+.p-privacy-policy.Div150 {
+flex-grow: 1;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+width: ;
+}
+.p-privacy-policy.Flex172 {
+display: flex;
+flex-grow: 3;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-privacy-policy.Flex169 {
+display: flex;
+flex-direction: column;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+margin-right: 100px;
+margin-left: ;
+flex-grow: 1;
+background-color: ;
+}
+.p-privacy-policy.Flex170 {
+display: flex;
+flex-direction: column;
+padding-top: 10px;
+padding-right: 100px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+margin-right: ;
+background-color: ;
+}
+.p-privacy-policy.Flex171 {
+display: flex;
+flex-grow: 1;
+padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+margin-right: ;
+flex-direction: column;
+}
+.p-privacy-policy.Flex168 {
+display: flex;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.p-privacy-policy.Button13 {
+color: #fff;
+background-color: #000000;
+padding-top: 8px;
+padding-left: 15px;
+padding-bottom: 8px;
+padding-right: 15px;
+font-size: 16px;
+border-radius: 2px;
+outline: none;
+font-weight: 400;
+text-align: center;
+border-width: 1px;
+border-style: solid;
+border-color: #1890ff;
+cursor: pointer;
+user-select: none;
+margin-left: 25px;
+position: absolute;
+right: 25px;
+}
+.p-privacy-policy.TextBox299 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+position: absolute;
+font-weight: 700;
+margin-right: ;
+}
+.p-privacy-policy.TextBox300 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+position: static;
+flex-grow: 1;
+font-weight: 700;
+}
+.p-privacy-policy.TextBox301 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+flex-grow: 1;
+font-weight: 700;
+}
+.p-privacy-policy.TextBox302 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+flex-grow: 1;
+}
+.p-privacy-policy.Image125 {
+width: 100px;
+min-width: 100px;
+max-width: 100px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
+margin-left: 100px;
+}
+.p-privacy-policy.TextBox339 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-privacy-policy.TextBox340 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+}
+.p-privacy-policy.TextBox341 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+font-size: 16px;
+}
+.p-privacy-policy.TextBox342 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-privacy-policy.TextBox343 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-privacy-policy.TextBox344 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+font-size: 16px;
+}
+.p-privacy-policy.TextBox345 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+}
+.p-privacy-policy.TextBox346 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-privacy-policy.TextBox347 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-privacy-policy.TextBox348 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+font-size: 20px;
+}
+.p-privacy-policy.TextBox349 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-privacy-policy.TextBox350 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+font-size: 32px;
+}
+.p-privacy-policy.Image130 {
+width: 300px;
+min-width: 300px;
+max-width: 300px;
+max-height: 300px;
+min-height: 300px;
+height: 300px;
+}
+.p-privacy-policy.TextBox351 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-privacy-policy.TextBox352 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-privacy-policy.TextBox353 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-privacy-policy.TextBox354 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-privacy-policy.TextBox355 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-privacy-policy.TextBox356 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-privacy-policy.TextBox357 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-privacy-policy.TextBox358 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-privacy-policy.Image129 {
+width: 100px;
+min-width: 100px;
+max-width: 100px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-privacy-policy.Image126 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+.p-privacy-policy.Image127 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+.p-privacy-policy.Image128 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-top: 10px;
+}
+@media screen and (max-width: 478px) {	.p-privacy-policy.Div150 {flex-grow: 1;
+}
+	.p-privacy-policy.Flex172 {flex-direction: column;
+flex-grow: 1;
+}
+	.p-privacy-policy.Flex169 {;
+}
+	.p-privacy-policy.Flex170 {;
+}
+	.p-privacy-policy.Flex171 {;
+}
+	.p-privacy-policy.TextBox351 {;
+}
+	.p-privacy-policy.TextBox352 {;
+}
+	.p-privacy-policy.TextBox353 {;
+}
+	.p-privacy-policy.TextBox354 {;
+}
+	.p-privacy-policy.TextBox355 {padding-bottom: 10px;
+}
+	.p-privacy-policy.TextBox356 {;
+}
+	.p-privacy-policy.TextBox357 {;
+}
+	.p-privacy-policy.TextBox358 {;
+}
+}
+@media screen and (max-width: 991px) {	.p-privacy-policy.Flex169 {flex-grow: 1;
+flex-direction: column;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+	.p-privacy-policy.Flex170 {flex-grow: 1;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+flex-direction: column;
+}
+	.p-privacy-policy.Flex171 {flex-grow: 1;
+}
+	.p-privacy-policy.TextBox351 {padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+}
+	.p-privacy-policy.TextBox352 {padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+	.p-privacy-policy.TextBox353 {padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+}
+	.p-privacy-policy.TextBox354 {padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+	.p-privacy-policy.TextBox355 {padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+	.p-privacy-policy.TextBox356 {padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+	.p-privacy-policy.TextBox357 {padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+	.p-privacy-policy.TextBox358 {padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+}

@@ -1,0 +1,448 @@
+.p-terms.Body_TnC {
+display: flex;
+flex-direction: column;
+background-color: ;
+}
+.p-terms.Flex157 {
+display: flex;
+background-color: ;
+}
+.p-terms.Flex155 {
+display: flex;
+flex-grow: 3;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-terms.Flex156 {
+display: flex;
+flex-grow: 3;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-terms.Div138 {
+flex-grow: 1;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-terms.Div143 {
+background-color: ;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.p-terms.Flex163 {
+display: flex;
+}
+.p-terms.Div144 {
+flex-grow: 1;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+width: ;
+}
+.p-terms.Flex162 {
+display: flex;
+flex-grow: 3;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-terms.Flex159 {
+display: flex;
+flex-direction: column;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+margin-right: 100px;
+margin-left: ;
+flex-grow: 1;
+background-color: ;
+}
+.p-terms.Flex160 {
+display: flex;
+flex-direction: column;
+padding-top: 10px;
+padding-right: 100px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+margin-right: ;
+background-color: ;
+}
+.p-terms.Flex161 {
+display: flex;
+flex-grow: 1;
+padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+margin-right: ;
+flex-direction: column;
+}
+.p-terms.Flex158 {
+display: flex;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.p-terms.Button12 {
+color: #fff;
+background-color: #000000;
+padding-top: 8px;
+padding-left: 15px;
+padding-bottom: 8px;
+padding-right: 15px;
+font-size: 16px;
+border-radius: 2px;
+outline: none;
+font-weight: 400;
+text-align: center;
+border-width: 1px;
+border-style: solid;
+border-color: #1890ff;
+cursor: pointer;
+user-select: none;
+margin-left: 25px;
+position: absolute;
+right: 25px;
+}
+.p-terms.TextBox227 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+position: absolute;
+font-weight: 700;
+margin-right: ;
+}
+.p-terms.TextBox228 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+position: static;
+flex-grow: 1;
+font-weight: 700;
+}
+.p-terms.TextBox229 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+flex-grow: 1;
+font-weight: 700;
+}
+.p-terms.TextBox230 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+flex-grow: 1;
+}
+.p-terms.Image119 {
+width: 100px;
+min-width: 100px;
+max-width: 100px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
+margin-left: 100px;
+}
+.p-terms.TextBox279 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-terms.TextBox280 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+}
+.p-terms.TextBox281 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+font-size: 16px;
+}
+.p-terms.TextBox282 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-terms.TextBox283 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-terms.TextBox284 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+font-size: 16px;
+}
+.p-terms.TextBox285 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+}
+.p-terms.TextBox286 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-terms.TextBox287 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-terms.TextBox288 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+font-size: 20px;
+}
+.p-terms.TextBox289 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-terms.TextBox290 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+font-size: 32px;
+}
+.p-terms.Image124 {
+width: 300px;
+min-width: 300px;
+max-width: 300px;
+max-height: 300px;
+min-height: 300px;
+height: 300px;
+}
+.p-terms.TextBox291 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-terms.TextBox292 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-terms.TextBox293 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-terms.TextBox294 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-terms.TextBox295 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-terms.TextBox296 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-terms.TextBox297 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-terms.TextBox298 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-terms.Image123 {
+width: 100px;
+min-width: 100px;
+max-width: 100px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-terms.Image120 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+.p-terms.Image121 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+.p-terms.Image122 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-top: 10px;
+}
+@media screen and (max-width: 478px) {	.p-terms.Div144 {flex-grow: 1;
+}
+	.p-terms.Flex162 {flex-direction: column;
+flex-grow: 1;
+}
+	.p-terms.Flex159 {;
+}
+	.p-terms.Flex160 {;
+}
+	.p-terms.Flex161 {;
+}
+	.p-terms.TextBox291 {;
+}
+	.p-terms.TextBox292 {;
+}
+	.p-terms.TextBox293 {;
+}
+	.p-terms.TextBox294 {;
+}
+	.p-terms.TextBox295 {padding-bottom: 10px;
+}
+	.p-terms.TextBox296 {;
+}
+	.p-terms.TextBox297 {;
+}
+	.p-terms.TextBox298 {;
+}
+}
+@media screen and (max-width: 991px) {	.p-terms.Flex159 {flex-grow: 1;
+flex-direction: column;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+	.p-terms.Flex160 {flex-grow: 1;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+flex-direction: column;
+}
+	.p-terms.Flex161 {flex-grow: 1;
+}
+	.p-terms.TextBox291 {padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+}
+	.p-terms.TextBox292 {padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+	.p-terms.TextBox293 {padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+}
+	.p-terms.TextBox294 {padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+	.p-terms.TextBox295 {padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+	.p-terms.TextBox296 {padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+	.p-terms.TextBox297 {padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+	.p-terms.TextBox298 {padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+}

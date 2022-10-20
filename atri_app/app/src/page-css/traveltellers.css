@@ -1,0 +1,503 @@
+.p-traveltellers.Travel_Teller_Body {
+display: flex;
+flex-direction: column;
+background-color: ;
+}
+.p-traveltellers.Flex258 {
+display: flex;
+background-color: ;
+}
+.p-traveltellers.Flex256 {
+display: flex;
+flex-grow: 3;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-traveltellers.Flex257 {
+display: flex;
+flex-grow: 3;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-traveltellers.Div161 {
+flex-grow: 1;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-traveltellers.Flex263 {
+display: flex;
+flex-direction: column;
+background-color: #eee8e8;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.p-traveltellers.Flex262 {
+display: flex;
+margin-top: 20px;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.p-traveltellers.Flex259 {
+display: flex;
+flex-grow: 1;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+background-color: #e4d2d2;
+}
+.p-traveltellers.Flex260 {
+display: flex;
+flex-grow: 1;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+background-color: #e4d2d2;
+}
+.p-traveltellers.Flex261 {
+display: flex;
+flex-grow: 1;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+background-color: #e4d2d2;
+}
+.p-traveltellers.Div162 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+width: 50%;
+min-width: 50%;
+max-width: 50%;
+}
+.p-traveltellers.Flex269 {
+display: flex;
+}
+.p-traveltellers.Div163 {
+flex-grow: 1;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+width: ;
+}
+.p-traveltellers.Flex268 {
+display: flex;
+flex-grow: 3;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-traveltellers.Flex265 {
+display: flex;
+flex-direction: column;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+margin-right: 100px;
+margin-left: ;
+flex-grow: 1;
+background-color: ;
+}
+.p-traveltellers.Flex266 {
+display: flex;
+flex-direction: column;
+padding-top: 10px;
+padding-right: 100px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+margin-right: ;
+background-color: ;
+}
+.p-traveltellers.Flex267 {
+display: flex;
+flex-grow: 1;
+padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+margin-right: ;
+flex-direction: column;
+}
+.p-traveltellers.Flex264 {
+display: flex;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.p-traveltellers.Button23 {
+color: #fff;
+background-color: #000000;
+padding-top: 8px;
+padding-left: 15px;
+padding-bottom: 8px;
+padding-right: 15px;
+font-size: 16px;
+border-radius: 2px;
+outline: none;
+font-weight: 400;
+text-align: center;
+border-width: 1px;
+border-style: solid;
+border-color: #1890ff;
+cursor: pointer;
+user-select: none;
+margin-left: 25px;
+position: absolute;
+right: 25px;
+}
+.p-traveltellers.TextBox417 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+position: absolute;
+font-weight: 700;
+margin-right: ;
+}
+.p-traveltellers.TextBox418 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+position: static;
+flex-grow: 1;
+font-weight: 700;
+}
+.p-traveltellers.TextBox419 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+flex-grow: 1;
+font-weight: 700;
+}
+.p-traveltellers.TextBox420 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+flex-grow: 1;
+}
+.p-traveltellers.Image150 {
+width: 100px;
+min-width: 100px;
+max-width: 100px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
+margin-left: 100px;
+}
+.p-traveltellers.Image151 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
+border-radius: 50px;
+margin-top: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+}
+.p-traveltellers.TextBox421 {
+font-family: Poppins;
+font-weight: 700;
+}
+.p-traveltellers.TextBox422 {
+font-family: Poppins;
+}
+.p-traveltellers.Image152 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
+border-radius: 50px;
+margin-top: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+}
+.p-traveltellers.TextBox423 {
+font-family: Poppins;
+font-weight: 700;
+}
+.p-traveltellers.TextBox424 {
+font-family: Poppins;
+}
+.p-traveltellers.TextBox425 {
+font-family: Poppins;
+}
+.p-traveltellers.TextBox426 {
+font-family: Poppins;
+font-weight: 700;
+}
+.p-traveltellers.Image153 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
+border-radius: 50px;
+margin-top: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 5px;
+}
+.p-traveltellers.Input38 {
+box-sizing: border-box;
+font-variant: tabular-nums;
+font-feature-settings: tnum;
+padding-top: 4px;
+padding-left: 11px;
+padding-bottom: 4px;
+padding-right: 11px;
+color: #000000d9;
+font-size: 14px;
+background-color: #fff;
+background-image: none;
+border-width: 1px;
+border-style: solid;
+border-color: #d9d9d9;
+border-radius: 2px;
+margin-left: 20px;
+}
+.p-traveltellers.TextBox427 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
+font-size: 15px;
+}
+.p-traveltellers.TextBox428 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+margin-bottom: 20px;
+}
+.p-traveltellers.Image158 {
+width: 300px;
+min-width: 300px;
+max-width: 300px;
+max-height: 300px;
+min-height: 300px;
+height: 300px;
+}
+.p-traveltellers.TextBox429 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-traveltellers.TextBox430 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-traveltellers.TextBox431 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-traveltellers.TextBox432 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-traveltellers.TextBox433 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-traveltellers.TextBox434 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-traveltellers.TextBox435 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-traveltellers.TextBox436 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+flex-grow: 1;
+}
+.p-traveltellers.Image157 {
+width: 100px;
+min-width: 100px;
+max-width: 100px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-traveltellers.Image154 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+.p-traveltellers.Image155 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+.p-traveltellers.Image156 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-top: 10px;
+}
+@media screen and (max-width: 478px) {	.p-traveltellers.Div163 {flex-grow: 1;
+}
+	.p-traveltellers.Flex268 {flex-direction: column;
+flex-grow: 1;
+}
+	.p-traveltellers.Flex265 {;
+}
+	.p-traveltellers.Flex266 {;
+}
+	.p-traveltellers.Flex267 {;
+}
+	.p-traveltellers.TextBox429 {;
+}
+	.p-traveltellers.TextBox430 {;
+}
+	.p-traveltellers.TextBox431 {;
+}
+	.p-traveltellers.TextBox432 {;
+}
+	.p-traveltellers.TextBox433 {padding-bottom: 10px;
+}
+	.p-traveltellers.TextBox434 {;
+}
+	.p-traveltellers.TextBox435 {;
+}
+	.p-traveltellers.TextBox436 {;
+}
+}
+@media screen and (max-width: 991px) {	.p-traveltellers.Flex265 {flex-grow: 1;
+flex-direction: column;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+	.p-traveltellers.Flex266 {flex-grow: 1;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+flex-direction: column;
+}
+	.p-traveltellers.Flex267 {flex-grow: 1;
+}
+	.p-traveltellers.TextBox429 {padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+}
+	.p-traveltellers.TextBox430 {padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+	.p-traveltellers.TextBox431 {padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+}
+	.p-traveltellers.TextBox432 {padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+}
+	.p-traveltellers.TextBox433 {padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+	.p-traveltellers.TextBox434 {padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+	.p-traveltellers.TextBox435 {padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+	.p-traveltellers.TextBox436 {padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+}

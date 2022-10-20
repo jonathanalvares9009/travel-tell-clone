@@ -1,0 +1,40 @@
+{
+  "port": 4005,
+  "pythonPort": 4007,
+  "publicDir": "dist/app",
+  "pages": {
+    "/": {
+      "name": "Home"
+    },
+    "/blog": {
+      "name": "blog"
+    },
+    "/places": {
+      "name": "places"
+    },
+    "/videos": {
+      "name": "videos"
+    },
+    "/traveltellers": {
+      "name": "traveltellers"
+    },
+    "/contact": {
+      "name": "contact"
+    },
+    "/privacy-policy": {
+      "name": "privacy-policy"
+    },
+    "/terms": {
+      "name": "terms"
+    },
+    "/shop": {
+      "name": "shop"
+    },
+    "/temp": {
+      "name": "temp"
+    }
+  },
+  "publicUrlAssetMap": {
+    "/app-assets": "../assets"
+  }
+}

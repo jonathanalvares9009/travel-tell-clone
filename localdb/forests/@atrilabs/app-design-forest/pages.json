@@ -1,0 +1,42 @@
+{
+  "home": {
+    "name": "Home",
+    "route": "/"
+  },
+  "cb5ef0ae-3a7e-421a-bc35-f0192f97ac1d": {
+    "name": "blog",
+    "route": "/blog"
+  },
+  "e2804c54-d397-4f1e-8ece-ff5aebf6daaf": {
+    "name": "places",
+    "route": "/places"
+  },
+  "c2fa35b9-7776-4810-a98e-dd3ae20e938a": {
+    "name": "videos",
+    "route": "/videos"
+  },
+  "dbb55599-dfa8-4d1c-a4d0-f0383f6be3ce": {
+    "name": "traveltellers",
+    "route": "/traveltellers"
+  },
+  "f4c8fc96-11c7-4c15-b780-b77ab0f6e406": {
+    "name": "contact",
+    "route": "/contact"
+  },
+  "fe5d7e0b-65a6-45e0-a6ef-82392de6ce54": {
+    "name": "privacy-policy",
+    "route": "/privacy-policy"
+  },
+  "28548ea7-7b2c-4f24-9b33-b7d1c3721183": {
+    "name": "terms",
+    "route": "/terms"
+  },
+  "ac2d6ef3-db97-499c-8e40-d460516fcf8c": {
+    "name": "shop",
+    "route": "/shop"
+  },
+  "851611ee-b8cc-44a6-89dd-5922ecfa3d87": {
+    "name": "temp",
+    "route": "/temp"
+  }
+}
