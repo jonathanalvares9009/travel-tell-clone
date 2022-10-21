@@ -5,11 +5,11 @@ import { useNavigate, useLocation } from "react-router-dom";
 import { subscribeInternalNavigation } from "../utils/navigate";
 import {fetchPageProps} from "../utils/fetchPageProps"
 import { Flex as Flex2 } from "@atrilabs/react-component-manifests/src/manifests/Flex/Flex.tsx";
-import { Div as Div2 } from "@atrilabs/react-component-manifests/src/manifests/Div/Div.tsx";
-import { Button as Button2 } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
+import { Div as Div1 } from "@atrilabs/react-component-manifests/src/manifests/Div/Div.tsx";
 import { TextBox as TextBox2 } from "@atrilabs/react-component-manifests/src/manifests/TextBox/TextBox.tsx";
 import { Image as Image2 } from "@atrilabs/react-component-manifests/src/manifests/Image/Image.tsx";
-import { usePlaces_BodyCb, useFlex275Cb, useFlex273Cb, useFlex274Cb, useDiv173Cb, useFlex277Cb, useFlex276Cb, useDiv174Cb, useDiv175Cb, useDiv176Cb, useDiv177Cb, useFlex283Cb, useDiv178Cb, useFlex282Cb, useFlex279Cb, useFlex280Cb, useFlex281Cb, useFlex278Cb, useButton24Cb, useTextBox450Cb, useTextBox451Cb, useTextBox452Cb, useTextBox453Cb, useImage167Cb, useTextBox458Cb, useTextBox459Cb, useTextBox454Cb, useImage168Cb, useTextBox455Cb, useImage169Cb, useTextBox456Cb, useImage170Cb, useTextBox457Cb, useImage171Cb, useImage176Cb, useTextBox460Cb, useTextBox461Cb, useTextBox462Cb, useTextBox463Cb, useTextBox464Cb, useTextBox465Cb, useTextBox466Cb, useTextBox467Cb, useImage175Cb, useImage172Cb, useImage173Cb, useImage174Cb } from "../page-cbs/places";
+import { Button as Button2 } from "@atrilabs/react-component-manifests/src/manifests/Button/Button.tsx";
+import { usePlaces_BodyCb, useFlex277Cb, useFlex276Cb, useDiv174Cb, useDiv175Cb, useDiv176Cb, useDiv177Cb, useFlex443Cb, useFlex449Cb, useFlex446Cb, useFlex444Cb, useFlex445Cb, useFlex447Cb, useFlex448Cb, useTextBox458Cb, useTextBox459Cb, useTextBox454Cb, useImage168Cb, useTextBox455Cb, useImage169Cb, useTextBox456Cb, useImage170Cb, useTextBox457Cb, useImage171Cb, useButton43Cb, useTextBox776Cb, useTextBox777Cb, useTextBox778Cb, useTextBox779Cb, useImage314Cb, useImage319Cb, useImage315Cb, useImage316Cb, useImage317Cb, useImage318Cb, useTextBox780Cb, useTextBox781Cb, useTextBox782Cb, useTextBox783Cb, useTextBox784Cb, useTextBox785Cb, useTextBox786Cb, useTextBox787Cb } from "../page-cbs/places";
 import "../page-css/places.css"
 
 export default function Places() {
@@ -31,18 +31,6 @@ export default function Places() {
   const Places_BodyProps = useStore((state)=>state["places"]["Places_Body"]);
 const Places_BodyIoProps = useIoStore((state)=>state["places"]["Places_Body"]);
 const Places_BodyCb = usePlaces_BodyCb()
-const Flex275Props = useStore((state)=>state["places"]["Flex275"]);
-const Flex275IoProps = useIoStore((state)=>state["places"]["Flex275"]);
-const Flex275Cb = useFlex275Cb()
-const Flex273Props = useStore((state)=>state["places"]["Flex273"]);
-const Flex273IoProps = useIoStore((state)=>state["places"]["Flex273"]);
-const Flex273Cb = useFlex273Cb()
-const Flex274Props = useStore((state)=>state["places"]["Flex274"]);
-const Flex274IoProps = useIoStore((state)=>state["places"]["Flex274"]);
-const Flex274Cb = useFlex274Cb()
-const Div173Props = useStore((state)=>state["places"]["Div173"]);
-const Div173IoProps = useIoStore((state)=>state["places"]["Div173"]);
-const Div173Cb = useDiv173Cb()
 const Flex277Props = useStore((state)=>state["places"]["Flex277"]);
 const Flex277IoProps = useIoStore((state)=>state["places"]["Flex277"]);
 const Flex277Cb = useFlex277Cb()
@@ -61,45 +49,27 @@ const Div176Cb = useDiv176Cb()
 const Div177Props = useStore((state)=>state["places"]["Div177"]);
 const Div177IoProps = useIoStore((state)=>state["places"]["Div177"]);
 const Div177Cb = useDiv177Cb()
-const Flex283Props = useStore((state)=>state["places"]["Flex283"]);
-const Flex283IoProps = useIoStore((state)=>state["places"]["Flex283"]);
-const Flex283Cb = useFlex283Cb()
-const Div178Props = useStore((state)=>state["places"]["Div178"]);
-const Div178IoProps = useIoStore((state)=>state["places"]["Div178"]);
-const Div178Cb = useDiv178Cb()
-const Flex282Props = useStore((state)=>state["places"]["Flex282"]);
-const Flex282IoProps = useIoStore((state)=>state["places"]["Flex282"]);
-const Flex282Cb = useFlex282Cb()
-const Flex279Props = useStore((state)=>state["places"]["Flex279"]);
-const Flex279IoProps = useIoStore((state)=>state["places"]["Flex279"]);
-const Flex279Cb = useFlex279Cb()
-const Flex280Props = useStore((state)=>state["places"]["Flex280"]);
-const Flex280IoProps = useIoStore((state)=>state["places"]["Flex280"]);
-const Flex280Cb = useFlex280Cb()
-const Flex281Props = useStore((state)=>state["places"]["Flex281"]);
-const Flex281IoProps = useIoStore((state)=>state["places"]["Flex281"]);
-const Flex281Cb = useFlex281Cb()
-const Flex278Props = useStore((state)=>state["places"]["Flex278"]);
-const Flex278IoProps = useIoStore((state)=>state["places"]["Flex278"]);
-const Flex278Cb = useFlex278Cb()
-const Button24Props = useStore((state)=>state["places"]["Button24"]);
-const Button24IoProps = useIoStore((state)=>state["places"]["Button24"]);
-const Button24Cb = useButton24Cb()
-const TextBox450Props = useStore((state)=>state["places"]["TextBox450"]);
-const TextBox450IoProps = useIoStore((state)=>state["places"]["TextBox450"]);
-const TextBox450Cb = useTextBox450Cb()
-const TextBox451Props = useStore((state)=>state["places"]["TextBox451"]);
-const TextBox451IoProps = useIoStore((state)=>state["places"]["TextBox451"]);
-const TextBox451Cb = useTextBox451Cb()
-const TextBox452Props = useStore((state)=>state["places"]["TextBox452"]);
-const TextBox452IoProps = useIoStore((state)=>state["places"]["TextBox452"]);
-const TextBox452Cb = useTextBox452Cb()
-const TextBox453Props = useStore((state)=>state["places"]["TextBox453"]);
-const TextBox453IoProps = useIoStore((state)=>state["places"]["TextBox453"]);
-const TextBox453Cb = useTextBox453Cb()
-const Image167Props = useStore((state)=>state["places"]["Image167"]);
-const Image167IoProps = useIoStore((state)=>state["places"]["Image167"]);
-const Image167Cb = useImage167Cb()
+const Flex443Props = useStore((state)=>state["places"]["Flex443"]);
+const Flex443IoProps = useIoStore((state)=>state["places"]["Flex443"]);
+const Flex443Cb = useFlex443Cb()
+const Flex449Props = useStore((state)=>state["places"]["Flex449"]);
+const Flex449IoProps = useIoStore((state)=>state["places"]["Flex449"]);
+const Flex449Cb = useFlex449Cb()
+const Flex446Props = useStore((state)=>state["places"]["Flex446"]);
+const Flex446IoProps = useIoStore((state)=>state["places"]["Flex446"]);
+const Flex446Cb = useFlex446Cb()
+const Flex444Props = useStore((state)=>state["places"]["Flex444"]);
+const Flex444IoProps = useIoStore((state)=>state["places"]["Flex444"]);
+const Flex444Cb = useFlex444Cb()
+const Flex445Props = useStore((state)=>state["places"]["Flex445"]);
+const Flex445IoProps = useIoStore((state)=>state["places"]["Flex445"]);
+const Flex445Cb = useFlex445Cb()
+const Flex447Props = useStore((state)=>state["places"]["Flex447"]);
+const Flex447IoProps = useIoStore((state)=>state["places"]["Flex447"]);
+const Flex447Cb = useFlex447Cb()
+const Flex448Props = useStore((state)=>state["places"]["Flex448"]);
+const Flex448IoProps = useIoStore((state)=>state["places"]["Flex448"]);
+const Flex448Cb = useFlex448Cb()
 const TextBox458Props = useStore((state)=>state["places"]["TextBox458"]);
 const TextBox458IoProps = useIoStore((state)=>state["places"]["TextBox458"]);
 const TextBox458Cb = useTextBox458Cb()
@@ -130,110 +100,120 @@ const TextBox457Cb = useTextBox457Cb()
 const Image171Props = useStore((state)=>state["places"]["Image171"]);
 const Image171IoProps = useIoStore((state)=>state["places"]["Image171"]);
 const Image171Cb = useImage171Cb()
-const Image176Props = useStore((state)=>state["places"]["Image176"]);
-const Image176IoProps = useIoStore((state)=>state["places"]["Image176"]);
-const Image176Cb = useImage176Cb()
-const TextBox460Props = useStore((state)=>state["places"]["TextBox460"]);
-const TextBox460IoProps = useIoStore((state)=>state["places"]["TextBox460"]);
-const TextBox460Cb = useTextBox460Cb()
-const TextBox461Props = useStore((state)=>state["places"]["TextBox461"]);
-const TextBox461IoProps = useIoStore((state)=>state["places"]["TextBox461"]);
-const TextBox461Cb = useTextBox461Cb()
-const TextBox462Props = useStore((state)=>state["places"]["TextBox462"]);
-const TextBox462IoProps = useIoStore((state)=>state["places"]["TextBox462"]);
-const TextBox462Cb = useTextBox462Cb()
-const TextBox463Props = useStore((state)=>state["places"]["TextBox463"]);
-const TextBox463IoProps = useIoStore((state)=>state["places"]["TextBox463"]);
-const TextBox463Cb = useTextBox463Cb()
-const TextBox464Props = useStore((state)=>state["places"]["TextBox464"]);
-const TextBox464IoProps = useIoStore((state)=>state["places"]["TextBox464"]);
-const TextBox464Cb = useTextBox464Cb()
-const TextBox465Props = useStore((state)=>state["places"]["TextBox465"]);
-const TextBox465IoProps = useIoStore((state)=>state["places"]["TextBox465"]);
-const TextBox465Cb = useTextBox465Cb()
-const TextBox466Props = useStore((state)=>state["places"]["TextBox466"]);
-const TextBox466IoProps = useIoStore((state)=>state["places"]["TextBox466"]);
-const TextBox466Cb = useTextBox466Cb()
-const TextBox467Props = useStore((state)=>state["places"]["TextBox467"]);
-const TextBox467IoProps = useIoStore((state)=>state["places"]["TextBox467"]);
-const TextBox467Cb = useTextBox467Cb()
-const Image175Props = useStore((state)=>state["places"]["Image175"]);
-const Image175IoProps = useIoStore((state)=>state["places"]["Image175"]);
-const Image175Cb = useImage175Cb()
-const Image172Props = useStore((state)=>state["places"]["Image172"]);
-const Image172IoProps = useIoStore((state)=>state["places"]["Image172"]);
-const Image172Cb = useImage172Cb()
-const Image173Props = useStore((state)=>state["places"]["Image173"]);
-const Image173IoProps = useIoStore((state)=>state["places"]["Image173"]);
-const Image173Cb = useImage173Cb()
-const Image174Props = useStore((state)=>state["places"]["Image174"]);
-const Image174IoProps = useIoStore((state)=>state["places"]["Image174"]);
-const Image174Cb = useImage174Cb()
+const Button43Props = useStore((state)=>state["places"]["Button43"]);
+const Button43IoProps = useIoStore((state)=>state["places"]["Button43"]);
+const Button43Cb = useButton43Cb()
+const TextBox776Props = useStore((state)=>state["places"]["TextBox776"]);
+const TextBox776IoProps = useIoStore((state)=>state["places"]["TextBox776"]);
+const TextBox776Cb = useTextBox776Cb()
+const TextBox777Props = useStore((state)=>state["places"]["TextBox777"]);
+const TextBox777IoProps = useIoStore((state)=>state["places"]["TextBox777"]);
+const TextBox777Cb = useTextBox777Cb()
+const TextBox778Props = useStore((state)=>state["places"]["TextBox778"]);
+const TextBox778IoProps = useIoStore((state)=>state["places"]["TextBox778"]);
+const TextBox778Cb = useTextBox778Cb()
+const TextBox779Props = useStore((state)=>state["places"]["TextBox779"]);
+const TextBox779IoProps = useIoStore((state)=>state["places"]["TextBox779"]);
+const TextBox779Cb = useTextBox779Cb()
+const Image314Props = useStore((state)=>state["places"]["Image314"]);
+const Image314IoProps = useIoStore((state)=>state["places"]["Image314"]);
+const Image314Cb = useImage314Cb()
+const Image319Props = useStore((state)=>state["places"]["Image319"]);
+const Image319IoProps = useIoStore((state)=>state["places"]["Image319"]);
+const Image319Cb = useImage319Cb()
+const Image315Props = useStore((state)=>state["places"]["Image315"]);
+const Image315IoProps = useIoStore((state)=>state["places"]["Image315"]);
+const Image315Cb = useImage315Cb()
+const Image316Props = useStore((state)=>state["places"]["Image316"]);
+const Image316IoProps = useIoStore((state)=>state["places"]["Image316"]);
+const Image316Cb = useImage316Cb()
+const Image317Props = useStore((state)=>state["places"]["Image317"]);
+const Image317IoProps = useIoStore((state)=>state["places"]["Image317"]);
+const Image317Cb = useImage317Cb()
+const Image318Props = useStore((state)=>state["places"]["Image318"]);
+const Image318IoProps = useIoStore((state)=>state["places"]["Image318"]);
+const Image318Cb = useImage318Cb()
+const TextBox780Props = useStore((state)=>state["places"]["TextBox780"]);
+const TextBox780IoProps = useIoStore((state)=>state["places"]["TextBox780"]);
+const TextBox780Cb = useTextBox780Cb()
+const TextBox781Props = useStore((state)=>state["places"]["TextBox781"]);
+const TextBox781IoProps = useIoStore((state)=>state["places"]["TextBox781"]);
+const TextBox781Cb = useTextBox781Cb()
+const TextBox782Props = useStore((state)=>state["places"]["TextBox782"]);
+const TextBox782IoProps = useIoStore((state)=>state["places"]["TextBox782"]);
+const TextBox782Cb = useTextBox782Cb()
+const TextBox783Props = useStore((state)=>state["places"]["TextBox783"]);
+const TextBox783IoProps = useIoStore((state)=>state["places"]["TextBox783"]);
+const TextBox783Cb = useTextBox783Cb()
+const TextBox784Props = useStore((state)=>state["places"]["TextBox784"]);
+const TextBox784IoProps = useIoStore((state)=>state["places"]["TextBox784"]);
+const TextBox784Cb = useTextBox784Cb()
+const TextBox785Props = useStore((state)=>state["places"]["TextBox785"]);
+const TextBox785IoProps = useIoStore((state)=>state["places"]["TextBox785"]);
+const TextBox785Cb = useTextBox785Cb()
+const TextBox786Props = useStore((state)=>state["places"]["TextBox786"]);
+const TextBox786IoProps = useIoStore((state)=>state["places"]["TextBox786"]);
+const TextBox786Cb = useTextBox786Cb()
+const TextBox787Props = useStore((state)=>state["places"]["TextBox787"]);
+const TextBox787IoProps = useIoStore((state)=>state["places"]["TextBox787"]);
+const TextBox787Cb = useTextBox787Cb()
 
   return (<>
   <Flex2 className="p-places Places_Body" {...Places_BodyProps} {...Places_BodyCb} {...Places_BodyIoProps}>
-<Flex2 className="p-places Flex275" {...Flex275Props} {...Flex275Cb} {...Flex275IoProps}>
-<Div2 className="p-places Div173" {...Div173Props} {...Div173Cb} {...Div173IoProps}>
-<Image2 className="p-places Image167" {...Image167Props} {...Image167Cb} {...Image167IoProps}/>
-</Div2>
-<Flex2 className="p-places Flex274" {...Flex274Props} {...Flex274Cb} {...Flex274IoProps}>
-<TextBox2 className="p-places TextBox453" {...TextBox453Props} {...TextBox453Cb} {...TextBox453IoProps}/>
-<TextBox2 className="p-places TextBox452" {...TextBox452Props} {...TextBox452Cb} {...TextBox452IoProps}/>
-<TextBox2 className="p-places TextBox451" {...TextBox451Props} {...TextBox451Cb} {...TextBox451IoProps}/>
-</Flex2>
-<Flex2 className="p-places Flex273" {...Flex273Props} {...Flex273Cb} {...Flex273IoProps}>
-<TextBox2 className="p-places TextBox450" {...TextBox450Props} {...TextBox450Cb} {...TextBox450IoProps}/>
-<Button2 className="p-places Button24" {...Button24Props} {...Button24Cb} {...Button24IoProps}/>
-</Flex2>
+<Flex2 className="p-places Flex443" {...Flex443Props} {...Flex443Cb} {...Flex443IoProps}>
+<Image2 className="p-places Image314" {...Image314Props} {...Image314Cb} {...Image314IoProps}/>
+<TextBox2 className="p-places TextBox779" {...TextBox779Props} {...TextBox779Cb} {...TextBox779IoProps}/>
+<TextBox2 className="p-places TextBox778" {...TextBox778Props} {...TextBox778Cb} {...TextBox778IoProps}/>
+<TextBox2 className="p-places TextBox777" {...TextBox777Props} {...TextBox777Cb} {...TextBox777IoProps}/>
+<TextBox2 className="p-places TextBox776" {...TextBox776Props} {...TextBox776Cb} {...TextBox776IoProps}/>
+<Button2 className="p-places Button43" {...Button43Props} {...Button43Cb} {...Button43IoProps}/>
 </Flex2>
 <Flex2 className="p-places Flex277" {...Flex277Props} {...Flex277Cb} {...Flex277IoProps}>
 <TextBox2 className="p-places TextBox459" {...TextBox459Props} {...TextBox459Cb} {...TextBox459IoProps}/>
 <TextBox2 className="p-places TextBox458" {...TextBox458Props} {...TextBox458Cb} {...TextBox458IoProps}/>
 <Flex2 className="p-places Flex276" {...Flex276Props} {...Flex276Cb} {...Flex276IoProps}>
-<Div2 className="p-places Div177" {...Div177Props} {...Div177Cb} {...Div177IoProps}>
+<Div1 className="p-places Div177" {...Div177Props} {...Div177Cb} {...Div177IoProps}>
 <Image2 className="p-places Image171" {...Image171Props} {...Image171Cb} {...Image171IoProps}/>
 <TextBox2 className="p-places TextBox457" {...TextBox457Props} {...TextBox457Cb} {...TextBox457IoProps}/>
-</Div2>
-<Div2 className="p-places Div174" {...Div174Props} {...Div174Cb} {...Div174IoProps}>
+</Div1>
+<Div1 className="p-places Div174" {...Div174Props} {...Div174Cb} {...Div174IoProps}>
 <Image2 className="p-places Image168" {...Image168Props} {...Image168Cb} {...Image168IoProps}/>
 <TextBox2 className="p-places TextBox454" {...TextBox454Props} {...TextBox454Cb} {...TextBox454IoProps}/>
-</Div2>
-<Div2 className="p-places Div175" {...Div175Props} {...Div175Cb} {...Div175IoProps}>
+</Div1>
+<Div1 className="p-places Div175" {...Div175Props} {...Div175Cb} {...Div175IoProps}>
 <Image2 className="p-places Image169" {...Image169Props} {...Image169Cb} {...Image169IoProps}/>
 <TextBox2 className="p-places TextBox455" {...TextBox455Props} {...TextBox455Cb} {...TextBox455IoProps}/>
-</Div2>
-<Div2 className="p-places Div176" {...Div176Props} {...Div176Cb} {...Div176IoProps}>
+</Div1>
+<Div1 className="p-places Div176" {...Div176Props} {...Div176Cb} {...Div176IoProps}>
 <Image2 className="p-places Image170" {...Image170Props} {...Image170Cb} {...Image170IoProps}/>
 <TextBox2 className="p-places TextBox456" {...TextBox456Props} {...TextBox456Cb} {...TextBox456IoProps}/>
-</Div2>
+</Div1>
 </Flex2>
 </Flex2>
-<Flex2 className="p-places Flex283" {...Flex283Props} {...Flex283Cb} {...Flex283IoProps}>
-<Flex2 className="p-places Flex282" {...Flex282Props} {...Flex282Cb} {...Flex282IoProps}>
-<Flex2 className="p-places Flex281" {...Flex281Props} {...Flex281Cb} {...Flex281IoProps}>
-<Image2 className="p-places Image175" {...Image175Props} {...Image175Cb} {...Image175IoProps}/>
-<Flex2 className="p-places Flex278" {...Flex278Props} {...Flex278Cb} {...Flex278IoProps}>
-<Image2 className="p-places Image174" {...Image174Props} {...Image174Cb} {...Image174IoProps}/>
-<Image2 className="p-places Image173" {...Image173Props} {...Image173Cb} {...Image173IoProps}/>
-<Image2 className="p-places Image172" {...Image172Props} {...Image172Cb} {...Image172IoProps}/>
+<Flex2 className="p-places Flex449" {...Flex449Props} {...Flex449Cb} {...Flex449IoProps}>
+<Flex2 className="p-places Flex446" {...Flex446Props} {...Flex446Cb} {...Flex446IoProps}>
+<Flex2 className="p-places Flex445" {...Flex445Props} {...Flex445Cb} {...Flex445IoProps}>
+<Image2 className="p-places Image318" {...Image318Props} {...Image318Cb} {...Image318IoProps}/>
+</Flex2>
+<Flex2 className="p-places Flex444" {...Flex444Props} {...Flex444Cb} {...Flex444IoProps}>
+<Image2 className="p-places Image315" {...Image315Props} {...Image315Cb} {...Image315IoProps}/>
+<Image2 className="p-places Image316" {...Image316Props} {...Image316Cb} {...Image316IoProps}/>
+<Image2 className="p-places Image317" {...Image317Props} {...Image317Cb} {...Image317IoProps}/>
 </Flex2>
 </Flex2>
-<Flex2 className="p-places Flex280" {...Flex280Props} {...Flex280Cb} {...Flex280IoProps}>
-<TextBox2 className="p-places TextBox467" {...TextBox467Props} {...TextBox467Cb} {...TextBox467IoProps}/>
-<TextBox2 className="p-places TextBox466" {...TextBox466Props} {...TextBox466Cb} {...TextBox466IoProps}/>
-<TextBox2 className="p-places TextBox465" {...TextBox465Props} {...TextBox465Cb} {...TextBox465IoProps}/>
-<TextBox2 className="p-places TextBox464" {...TextBox464Props} {...TextBox464Cb} {...TextBox464IoProps}/>
+<Flex2 className="p-places Flex447" {...Flex447Props} {...Flex447Cb} {...Flex447IoProps}>
+<TextBox2 className="p-places TextBox781" {...TextBox781Props} {...TextBox781Cb} {...TextBox781IoProps}/>
+<TextBox2 className="p-places TextBox782" {...TextBox782Props} {...TextBox782Cb} {...TextBox782IoProps}/>
+<TextBox2 className="p-places TextBox783" {...TextBox783Props} {...TextBox783Cb} {...TextBox783IoProps}/>
+<TextBox2 className="p-places TextBox780" {...TextBox780Props} {...TextBox780Cb} {...TextBox780IoProps}/>
 </Flex2>
-<Flex2 className="p-places Flex279" {...Flex279Props} {...Flex279Cb} {...Flex279IoProps}>
-<TextBox2 className="p-places TextBox463" {...TextBox463Props} {...TextBox463Cb} {...TextBox463IoProps}/>
-<TextBox2 className="p-places TextBox462" {...TextBox462Props} {...TextBox462Cb} {...TextBox462IoProps}/>
-<TextBox2 className="p-places TextBox461" {...TextBox461Props} {...TextBox461Cb} {...TextBox461IoProps}/>
-<TextBox2 className="p-places TextBox460" {...TextBox460Props} {...TextBox460Cb} {...TextBox460IoProps}/>
+<Flex2 className="p-places Flex448" {...Flex448Props} {...Flex448Cb} {...Flex448IoProps}>
+<TextBox2 className="p-places TextBox785" {...TextBox785Props} {...TextBox785Cb} {...TextBox785IoProps}/>
+<TextBox2 className="p-places TextBox786" {...TextBox786Props} {...TextBox786Cb} {...TextBox786IoProps}/>
+<TextBox2 className="p-places TextBox787" {...TextBox787Props} {...TextBox787Cb} {...TextBox787IoProps}/>
+<TextBox2 className="p-places TextBox784" {...TextBox784Props} {...TextBox784Cb} {...TextBox784IoProps}/>
 </Flex2>
-</Flex2>
-<Div2 className="p-places Div178" {...Div178Props} {...Div178Cb} {...Div178IoProps}>
-<Image2 className="p-places Image176" {...Image176Props} {...Image176Cb} {...Image176IoProps}/>
-</Div2>
+<Image2 className="p-places Image319" {...Image319Props} {...Image319Cb} {...Image319IoProps}/>
 </Flex2>
 </Flex2>
   </>);

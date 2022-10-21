@@ -3,55 +3,37 @@ display: flex;
 flex-direction: column;
 background-color: ;
 }
-.p-shop.Flex313 {
-display: flex;
-background-color: ;
-}
-.p-shop.Flex311 {
-display: flex;
-flex-grow: 3;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-.p-shop.Flex312 {
-display: flex;
-flex-grow: 3;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-.p-shop.Div210 {
-flex-grow: 1;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
 .p-shop.Flex317 {
 display: flex;
 background-color: #e4e4e4;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
 }
 .p-shop.Flex315 {
 display: flex;
 flex-direction: column;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
 }
 .p-shop.Flex314 {
 display: flex;
-align-items: stretch;
+align-items: flex-start;
 justify-content: flex-start;
 flex-wrap: wrap;
 align-self: auto;
-align-content: space-around;
-column-gap: ;
+align-content: space-between;
+column-gap: 30px;
 overflow: visible;
 flex-direction: row;
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
+row-gap: 30px;
 }
 .p-shop.Div211 {
 width: 200px;
@@ -61,8 +43,8 @@ height: 250px;
 min-height: 250px;
 max-height: 250px;
 position: relative;
-margin-bottom: 10px;
-margin-right: 10px;
+margin-bottom: ;
+margin-right: ;
 }
 .p-shop.Div212 {
 width: 200px;
@@ -71,9 +53,9 @@ max-width: 200px;
 height: 250px;
 min-height: 250px;
 max-height: 250px;
-margin-right: 10px;
+margin-right: ;
 position: relative;
-margin-bottom: 10px;
+margin-bottom: ;
 }
 .p-shop.Div213 {
 width: 200px;
@@ -82,9 +64,9 @@ max-width: 200px;
 height: 250px;
 min-height: 250px;
 max-height: 250px;
-margin-right: 10px;
+margin-right: ;
 position: relative;
-margin-bottom: 10px;
+margin-bottom: ;
 }
 .p-shop.Div214 {
 width: 200px;
@@ -93,9 +75,9 @@ max-width: 200px;
 height: 250px;
 min-height: 250px;
 max-height: 250px;
-margin-right: 10px;
+margin-right: ;
 position: relative;
-margin-bottom: 10px;
+margin-bottom: ;
 }
 .p-shop.Div215 {
 width: 200px;
@@ -105,8 +87,8 @@ height: 250px;
 min-height: 250px;
 max-height: 250px;
 margin-top: ;
-margin-right: 10px;
-margin-bottom: 10px;
+margin-right: ;
+margin-bottom: ;
 margin-left: ;
 position: relative;
 }
@@ -120,133 +102,90 @@ flex-direction: column;
 width: 25%;
 min-width: 25%;
 max-width: 25%;
+align-items: center;
+justify-content: center;
 }
-.p-shop.Flex323 {
+.p-shop.Flex429 {
 display: flex;
-}
-.p-shop.Div216 {
-flex-grow: 1;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
+flex-direction: column;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
 padding-left: 20px;
-width: ;
+row-gap: 30px;
 }
-.p-shop.Flex322 {
-display: flex;
-flex-grow: 3;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-.p-shop.Flex319 {
-display: flex;
-flex-direction: column;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-margin-right: 100px;
-margin-left: ;
-flex-grow: 1;
-background-color: ;
-}
-.p-shop.Flex320 {
-display: flex;
-flex-direction: column;
-padding-top: 10px;
-padding-right: 100px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-margin-right: ;
-background-color: ;
-}
-.p-shop.Flex321 {
-display: flex;
-flex-grow: 1;
-padding-top: 30px;
-padding-right: 30px;
-padding-bottom: 30px;
-padding-left: 30px;
-margin-right: ;
-flex-direction: column;
-}
-.p-shop.Flex318 {
+.p-shop.Flex422 {
 display: flex;
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
+align-items: center;
+flex-wrap: nowrap;
+align-content: stretch;
+justify-content: space-between;
 }
-.p-shop.Button26 {
-color: #fff;
-background-color: #000000;
-padding-top: 8px;
-padding-left: 15px;
-padding-bottom: 8px;
-padding-right: 15px;
-font-size: 16px;
-border-radius: 2px;
-outline: none;
-font-weight: 400;
-text-align: center;
-border-width: 1px;
-border-style: solid;
-border-color: #1890ff;
-cursor: pointer;
-user-select: none;
-margin-left: 25px;
-position: absolute;
-right: 25px;
+.p-shop.Flex428 {
+display: flex;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+align-items: stretch;
+justify-content: center;
+flex-wrap: nowrap;
+align-content: stretch;
+row-gap: 10px;
+column-gap: 30px;
 }
-.p-shop.TextBox544 {
+.p-shop.Flex425 {
+display: flex;
+row-gap: 30px;
+flex-direction: column;
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
-font-family: Poppins;
-position: absolute;
-font-weight: 700;
-margin-right: ;
+justify-content: flex-start;
+align-items: stretch;
+align-content: stretch;
+flex-wrap: nowrap;
 }
-.p-shop.TextBox545 {
+.p-shop.Flex423 {
+display: flex;
+align-items: stretch;
+justify-content: flex-start;
+flex-wrap: nowrap;
+align-content: stretch;
+column-gap: 30px;
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
-font-family: Poppins;
-position: static;
-flex-grow: 1;
-font-weight: 700;
 }
-.p-shop.TextBox546 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-flex-grow: 1;
-font-weight: 700;
+.p-shop.Flex424 {
+display: flex;
+justify-content: center;
 }
-.p-shop.TextBox547 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-font-weight: 700;
-flex-grow: 1;
+.p-shop.Flex426 {
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
 }
-.p-shop.Image212 {
-width: 100px;
-min-width: 100px;
-max-width: 100px;
-height: 50px;
-min-height: 50px;
-max-height: 50px;
-margin-left: 100px;
+.p-shop.Flex427 {
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+align-items: stretch;
+justify-content: flex-start;
+align-content: stretch;
+row-gap: ;
 }
 .p-shop.TextBox558 {
 padding-top: 20px;
@@ -332,8 +271,8 @@ max-width: 200px;
 height: 250px;
 min-height: 250px;
 max-height: 250px;
-margin-right: 10px;
-margin-bottom: 10px;
+margin-right: ;
+margin-bottom: ;
 }
 .p-shop.TextBox554 {
 position: absolute;
@@ -385,242 +324,197 @@ height: 250px;
 min-height: 250px;
 max-height: 250px;
 }
-.p-shop.TextBox559 {
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
-font-family: Poppins;
-font-weight: 700;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-background-color: #ffffff;
-}
-.p-shop.TextBox560 {
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
-font-family: Poppins;
-font-weight: 700;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-background-color: #ffffff;
-}
-.p-shop.TextBox561 {
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
-font-family: Poppins;
-font-weight: 700;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-background-color: #ffffff;
-}
 .p-shop.TextBox562 {
-margin-top: 70px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
+margin-top: ;
+margin-right: ;
+margin-bottom: ;
+margin-left: ;
 font-family: Poppins;
 font-weight: 700;
 padding-top: 10px;
 padding-right: 10px;
-padding-bottom: 10px;
+padding-bottom: 30px;
 padding-left: 10px;
 }
-.p-shop.Image222 {
-width: 300px;
-min-width: 300px;
-max-width: 300px;
-max-height: 300px;
-min-height: 300px;
-height: 300px;
-}
-.p-shop.TextBox563 {
+.p-shop.TextBox752 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
-flex-grow: 1;
+font-family: Poppins;
+font-weight: 700;
+background-color: #ffffff;
 }
-.p-shop.TextBox564 {
+.p-shop.TextBox754 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
-flex-grow: 1;
+font-family: Poppins;
+font-weight: 700;
+background-color: #ffffff;
 }
-.p-shop.TextBox565 {
+.p-shop.TextBox755 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
-flex-grow: 1;
+font-family: Poppins;
+font-weight: 700;
+background-color: #ffffff;
 }
-.p-shop.TextBox566 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
+.p-shop.Button41 {
+color: #fff;
+background-color: #0f1010;
+padding-top: 8px;
+padding-left: 15px;
+padding-bottom: 8px;
+padding-right: 15px;
+font-size: 16px;
+border-radius: 2px;
+outline: none;
+font-weight: 400;
+text-align: center;
+border-width: 1px;
+border-style: solid;
+border-color: #1890ff;
+cursor: pointer;
+user-select: none;
 }
-.p-shop.TextBox567 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
+.p-shop.TextBox739 {
+font-family: Poppins;
+font-weight: 700;
 }
-.p-shop.TextBox568 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
+.p-shop.TextBox740 {
+font-family: Poppins;
+font-weight: 700;
 }
-.p-shop.TextBox569 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
+.p-shop.TextBox741 {
+font-family: Poppins;
+font-weight: 700;
 }
-.p-shop.TextBox570 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
+.p-shop.TextBox742 {
+font-family: Poppins;
+font-weight: 700;
 }
-.p-shop.Image221 {
-width: 100px;
+.p-shop.Image297 {
+width: 150px;
 min-width: 100px;
-max-width: 100px;
+max-width: 200px;
 height: 50px;
 min-height: 50px;
 max-height: 50px;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
 }
-.p-shop.Image218 {
+.p-shop.Image302 {
+width: 250px;
+min-width: 250px;
+max-width: 250px;
+height: 300px;
+min-height: 300px;
+max-height: 300px;
+}
+.p-shop.Image298 {
 width: 50px;
 min-width: 50px;
 max-width: 50px;
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
 }
-.p-shop.Image219 {
+.p-shop.Image299 {
 width: 50px;
 min-width: 50px;
 max-width: 50px;
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
 }
-.p-shop.Image220 {
+.p-shop.Image300 {
 width: 50px;
 min-width: 50px;
 max-width: 50px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
-margin-top: 10px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
 }
-@media screen and (max-width: 478px) {	.p-shop.Div216 {flex-grow: 1;
+.p-shop.Image301 {
+width: 100px;
+min-width: 100px;
+max-width: 100px;
+height: 25px;
+min-height: 25px;
+max-height: 25px;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
 }
-	.p-shop.Flex322 {flex-direction: column;
-flex-grow: 1;
+.p-shop.TextBox743 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-shop.Flex319 {;
+.p-shop.TextBox744 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-shop.Flex320 {;
+.p-shop.TextBox745 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-shop.Flex321 {;
+.p-shop.TextBox746 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-shop.TextBox563 {;
+.p-shop.TextBox747 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-shop.TextBox564 {;
+.p-shop.TextBox748 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-shop.TextBox565 {;
+.p-shop.TextBox749 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-shop.TextBox566 {;
+.p-shop.TextBox750 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-shop.TextBox567 {padding-bottom: 10px;
-}
-	.p-shop.TextBox568 {;
-}
-	.p-shop.TextBox569 {;
-}
-	.p-shop.TextBox570 {;
-}
-}
-@media screen and (max-width: 991px) {	.p-shop.Flex319 {flex-grow: 1;
+@media screen and (max-width: 478px) {	.p-shop.Flex422 {justify-content: center;
 flex-direction: column;
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-}
-	.p-shop.Flex320 {flex-grow: 1;
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-flex-direction: column;
-}
-	.p-shop.Flex321 {flex-grow: 1;
-}
-	.p-shop.TextBox563 {padding-top: 10px;
-padding-left: 10px;
-padding-bottom: 10px;
-padding-right: 10px;
-}
-	.p-shop.TextBox564 {padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-}
-	.p-shop.TextBox565 {padding-top: 10px;
-padding-left: 10px;
-padding-bottom: 10px;
-padding-right: 10px;
-}
-	.p-shop.TextBox566 {padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-}
-	.p-shop.TextBox567 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-	.p-shop.TextBox568 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-	.p-shop.TextBox569 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-	.p-shop.TextBox570 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
+align-items: center;
 }
 }

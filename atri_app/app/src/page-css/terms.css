@@ -1,104 +1,91 @@
-.p-terms.Body_TnC {
+.p-terms.Flex355 {
 display: flex;
 flex-direction: column;
-background-color: ;
 }
-.p-terms.Flex157 {
+.p-terms.Flex356 {
 display: flex;
-background-color: ;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+align-items: center;
+flex-wrap: nowrap;
+align-content: stretch;
+justify-content: space-between;
+flex-direction: row;
 }
-.p-terms.Flex155 {
-display: flex;
-flex-grow: 3;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-.p-terms.Flex156 {
-display: flex;
-flex-grow: 3;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-.p-terms.Div138 {
-flex-grow: 1;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-.p-terms.Div143 {
+.p-terms.Div226 {
 background-color: ;
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
 }
-.p-terms.Flex163 {
-display: flex;
-}
-.p-terms.Div144 {
-flex-grow: 1;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 20px;
-width: ;
-}
-.p-terms.Flex162 {
-display: flex;
-flex-grow: 3;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-.p-terms.Flex159 {
-display: flex;
-flex-direction: column;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-margin-right: 100px;
-margin-left: ;
-flex-grow: 1;
-background-color: ;
-}
-.p-terms.Flex160 {
-display: flex;
-flex-direction: column;
-padding-top: 10px;
-padding-right: 100px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-margin-right: ;
-background-color: ;
-}
-.p-terms.Flex161 {
-display: flex;
-flex-grow: 1;
-padding-top: 30px;
-padding-right: 30px;
-padding-bottom: 30px;
-padding-left: 30px;
-margin-right: ;
-flex-direction: column;
-}
-.p-terms.Flex158 {
+.p-terms.Flex376 {
 display: flex;
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
+align-items: stretch;
+justify-content: center;
+flex-wrap: nowrap;
+align-content: stretch;
+row-gap: 10px;
+column-gap: 30px;
 }
-.p-terms.Button12 {
+.p-terms.Flex373 {
+display: flex;
+row-gap: 30px;
+flex-direction: column;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+justify-content: flex-start;
+align-items: stretch;
+align-content: stretch;
+flex-wrap: nowrap;
+}
+.p-terms.Flex371 {
+display: flex;
+align-items: stretch;
+justify-content: flex-start;
+flex-wrap: nowrap;
+align-content: stretch;
+column-gap: 30px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-terms.Flex372 {
+display: flex;
+justify-content: center;
+}
+.p-terms.Flex374 {
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.p-terms.Flex375 {
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+align-items: stretch;
+justify-content: flex-start;
+align-content: stretch;
+row-gap: ;
+}
+.p-terms.Button36 {
 color: #fff;
-background-color: #000000;
+background-color: #0f1010;
 padding-top: 8px;
 padding-left: 15px;
 padding-bottom: 8px;
@@ -113,96 +100,47 @@ border-style: solid;
 border-color: #1890ff;
 cursor: pointer;
 user-select: none;
-margin-left: 25px;
-position: absolute;
-right: 25px;
 }
-.p-terms.TextBox227 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-position: absolute;
-font-weight: 700;
-margin-right: ;
-}
-.p-terms.TextBox228 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-position: static;
-flex-grow: 1;
-font-weight: 700;
-}
-.p-terms.TextBox229 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-flex-grow: 1;
-font-weight: 700;
-}
-.p-terms.TextBox230 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
+.p-terms.TextBox633 {
 font-family: Poppins;
 font-weight: 700;
-flex-grow: 1;
 }
-.p-terms.Image119 {
-width: 100px;
+.p-terms.TextBox634 {
+font-family: Poppins;
+font-weight: 700;
+}
+.p-terms.TextBox635 {
+font-family: Poppins;
+font-weight: 700;
+}
+.p-terms.TextBox636 {
+font-family: Poppins;
+font-weight: 700;
+}
+.p-terms.Image256 {
+width: 150px;
 min-width: 100px;
-max-width: 100px;
+max-width: 200px;
 height: 50px;
 min-height: 50px;
 max-height: 50px;
-margin-left: 100px;
 }
-.p-terms.TextBox279 {
+.p-terms.TextBox637 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
 font-family: Poppins;
 }
-.p-terms.TextBox280 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-font-weight: 700;
-}
-.p-terms.TextBox281 {
+.p-terms.TextBox638 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
 font-family: Poppins;
 font-weight: 700;
-font-size: 16px;
 }
-.p-terms.TextBox282 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-}
-.p-terms.TextBox283 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-}
-.p-terms.TextBox284 {
+.p-terms.TextBox639 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
@@ -211,7 +149,30 @@ font-family: Poppins;
 font-weight: 700;
 font-size: 16px;
 }
-.p-terms.TextBox285 {
+.p-terms.TextBox640 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-terms.TextBox641 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-terms.TextBox642 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+font-size: 16px;
+}
+.p-terms.TextBox643 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
@@ -219,21 +180,21 @@ padding-left: 10px;
 font-family: Poppins;
 font-weight: 700;
 }
-.p-terms.TextBox286 {
+.p-terms.TextBox644 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
 font-family: Poppins;
 }
-.p-terms.TextBox287 {
+.p-terms.TextBox645 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
 font-family: Poppins;
 }
-.p-terms.TextBox288 {
+.p-terms.TextBox646 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
@@ -242,14 +203,14 @@ font-family: Poppins;
 font-weight: 700;
 font-size: 20px;
 }
-.p-terms.TextBox289 {
+.p-terms.TextBox647 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
 font-family: Poppins;
 }
-.p-terms.TextBox290 {
+.p-terms.TextBox648 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
@@ -258,191 +219,116 @@ font-family: Poppins;
 font-weight: 700;
 font-size: 32px;
 }
-.p-terms.Image124 {
-width: 300px;
-min-width: 300px;
-max-width: 300px;
-max-height: 300px;
-min-height: 300px;
+.p-terms.Image272 {
+width: 250px;
+min-width: 250px;
+max-width: 250px;
 height: 300px;
+min-height: 300px;
+max-height: 300px;
 }
-.p-terms.TextBox291 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-terms.TextBox292 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-terms.TextBox293 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-terms.TextBox294 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-terms.TextBox295 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-terms.TextBox296 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-terms.TextBox297 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-terms.TextBox298 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-terms.Image123 {
-width: 100px;
-min-width: 100px;
-max-width: 100px;
+.p-terms.Image268 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
 height: 50px;
 min-height: 50px;
 max-height: 50px;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
 }
-.p-terms.Image120 {
+.p-terms.Image269 {
 width: 50px;
 min-width: 50px;
 max-width: 50px;
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
 }
-.p-terms.Image121 {
+.p-terms.Image270 {
 width: 50px;
 min-width: 50px;
 max-width: 50px;
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
 }
-.p-terms.Image122 {
-width: 50px;
-min-width: 50px;
-max-width: 50px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
-margin-top: 10px;
+.p-terms.Image271 {
+width: 100px;
+min-width: 100px;
+max-width: 100px;
+height: 25px;
+min-height: 25px;
+max-height: 25px;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
 }
-@media screen and (max-width: 478px) {	.p-terms.Div144 {flex-grow: 1;
+.p-terms.TextBox681 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-terms.Flex162 {flex-direction: column;
-flex-grow: 1;
+.p-terms.TextBox682 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-terms.Flex159 {;
+.p-terms.TextBox683 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-terms.Flex160 {;
+.p-terms.TextBox684 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-terms.Flex161 {;
+.p-terms.TextBox685 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-terms.TextBox291 {;
+.p-terms.TextBox686 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-terms.TextBox292 {;
+.p-terms.TextBox687 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-terms.TextBox293 {;
+.p-terms.TextBox688 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-terms.TextBox294 {;
-}
-	.p-terms.TextBox295 {padding-bottom: 10px;
-}
-	.p-terms.TextBox296 {;
-}
-	.p-terms.TextBox297 {;
-}
-	.p-terms.TextBox298 {;
-}
-}
-@media screen and (max-width: 991px) {	.p-terms.Flex159 {flex-grow: 1;
+@media screen and (max-width: 478px) {	.p-terms.Flex356 {justify-content: center;
 flex-direction: column;
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-}
-	.p-terms.Flex160 {flex-grow: 1;
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-flex-direction: column;
-}
-	.p-terms.Flex161 {flex-grow: 1;
-}
-	.p-terms.TextBox291 {padding-top: 10px;
-padding-left: 10px;
-padding-bottom: 10px;
-padding-right: 10px;
-}
-	.p-terms.TextBox292 {padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-}
-	.p-terms.TextBox293 {padding-top: 10px;
-padding-left: 10px;
-padding-bottom: 10px;
-padding-right: 10px;
-}
-	.p-terms.TextBox294 {padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-}
-	.p-terms.TextBox295 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-	.p-terms.TextBox296 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-	.p-terms.TextBox297 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-	.p-terms.TextBox298 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
+align-items: center;
 }
 }

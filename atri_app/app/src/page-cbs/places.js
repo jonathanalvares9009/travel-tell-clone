@@ -12,159 +12,6 @@ export function usePlaces_BodyCb() {
 }), [])
 	return { onClick }
 }
-export function useButton24Cb() {
-	const onClick = useCallback(callbackFactory("Button24", "places", "/places", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox450Cb() {
-	const onClick = useCallback(callbackFactory("TextBox450", "places", "/places", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox451Cb() {
-	const onClick = useCallback(callbackFactory("TextBox451", "places", "/places", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "internal",
-        "url": "/contact"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox452Cb() {
-	const onClick = useCallback(callbackFactory("TextBox452", "places", "/places", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "internal",
-        "url": "/shop"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox453Cb() {
-	const onClick = useCallback(callbackFactory("TextBox453", "places", "/places", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useImage167Cb() {
-	const onClick = useCallback(callbackFactory("Image167", "places", "/places", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "internal",
-        "url": "/"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex273Cb() {
-	const onClick = useCallback(callbackFactory("Flex273", "places", "/places", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex274Cb() {
-	const onClick = useCallback(callbackFactory("Flex274", "places", "/places", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useDiv173Cb() {
-	const onClick = useCallback(callbackFactory("Div173", "places", "/places", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex275Cb() {
-	const onClick = useCallback(callbackFactory("Flex275", "places", "/places", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
 export function useTextBox454Cb() {
 	const onClick = useCallback(callbackFactory("TextBox454", "places", "/places", "onClick", 
 			{
@@ -397,8 +244,8 @@ export function useFlex277Cb() {
 }), [])
 	return { onClick }
 }
-export function useImage172Cb() {
-	const onClick = useCallback(callbackFactory("Image172", "places", "/places", "onClick", 
+export function useButton43Cb() {
+	const onClick = useCallback(callbackFactory("Button43", "places", "/places", "onClick", 
 			{
   "handlers": [
     {
@@ -413,8 +260,8 @@ export function useImage172Cb() {
 }), [])
 	return { onClick }
 }
-export function useImage173Cb() {
-	const onClick = useCallback(callbackFactory("Image173", "places", "/places", "onClick", 
+export function useTextBox776Cb() {
+	const onClick = useCallback(callbackFactory("TextBox776", "places", "/places", "onClick", 
 			{
   "handlers": [
     {
@@ -429,62 +276,8 @@ export function useImage173Cb() {
 }), [])
 	return { onClick }
 }
-export function useImage174Cb() {
-	const onClick = useCallback(callbackFactory("Image174", "places", "/places", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox460Cb() {
-	const onClick = useCallback(callbackFactory("TextBox460", "places", "/places", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "internal",
-        "url": "/terms"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox461Cb() {
-	const onClick = useCallback(callbackFactory("TextBox461", "places", "/places", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "internal",
-        "url": "/privacy-policy"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox462Cb() {
-	const onClick = useCallback(callbackFactory("TextBox462", "places", "/places", "onClick", 
+export function useTextBox777Cb() {
+	const onClick = useCallback(callbackFactory("TextBox777", "places", "/places", "onClick", 
 			{
   "handlers": [
     {
@@ -502,14 +295,14 @@ export function useTextBox462Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox463Cb() {
-	const onClick = useCallback(callbackFactory("TextBox463", "places", "/places", "onClick", 
+export function useTextBox778Cb() {
+	const onClick = useCallback(callbackFactory("TextBox778", "places", "/places", "onClick", 
 			{
   "handlers": [
     {
       "navigate": {
         "type": "internal",
-        "url": "/shop "
+        "url": "/shop"
       }
     }
   ],
@@ -521,8 +314,158 @@ export function useTextBox463Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox464Cb() {
-	const onClick = useCallback(callbackFactory("TextBox464", "places", "/places", "onClick", 
+export function useTextBox779Cb() {
+	const onClick = useCallback(callbackFactory("TextBox779", "places", "/places", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage314Cb() {
+	const onClick = useCallback(callbackFactory("Image314", "places", "/places", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex443Cb() {
+	const onClick = useCallback(callbackFactory("Flex443", "places", "/places", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage315Cb() {
+	const onClick = useCallback(callbackFactory("Image315", "places", "/places", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "www.facebook.com",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage316Cb() {
+	const onClick = useCallback(callbackFactory("Image316", "places", "/places", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "www.linkedin.com",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage317Cb() {
+	const onClick = useCallback(callbackFactory("Image317", "places", "/places", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "www.twitter.com",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage318Cb() {
+	const onClick = useCallback(callbackFactory("Image318", "places", "/places", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex444Cb() {
+	const onClick = useCallback(callbackFactory("Flex444", "places", "/places", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex445Cb() {
+	const onClick = useCallback(callbackFactory("Flex445", "places", "/places", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox780Cb() {
+	const onClick = useCallback(callbackFactory("TextBox780", "places", "/places", "onClick", 
 			{
   "handlers": [
     {
@@ -540,46 +483,8 @@ export function useTextBox464Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox465Cb() {
-	const onClick = useCallback(callbackFactory("TextBox465", "places", "/places", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "internal",
-        "url": "/traveltellers"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox466Cb() {
-	const onClick = useCallback(callbackFactory("TextBox466", "places", "/places", "onClick", 
-			{
-  "handlers": [
-    {
-      "navigate": {
-        "type": "internal",
-        "url": "/places"
-      }
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox467Cb() {
-	const onClick = useCallback(callbackFactory("TextBox467", "places", "/places", "onClick", 
+export function useTextBox781Cb() {
+	const onClick = useCallback(callbackFactory("TextBox781", "places", "/places", "onClick", 
 			{
   "handlers": [
     {
@@ -597,8 +502,122 @@ export function useTextBox467Cb() {
 }), [])
 	return { onClick }
 }
-export function useFlex278Cb() {
-	const onClick = useCallback(callbackFactory("Flex278", "places", "/places", "onClick", 
+export function useTextBox782Cb() {
+	const onClick = useCallback(callbackFactory("TextBox782", "places", "/places", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/places"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox783Cb() {
+	const onClick = useCallback(callbackFactory("TextBox783", "places", "/places", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/traveltellers"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox784Cb() {
+	const onClick = useCallback(callbackFactory("TextBox784", "places", "/places", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/terms"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox785Cb() {
+	const onClick = useCallback(callbackFactory("TextBox785", "places", "/places", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/shop"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox786Cb() {
+	const onClick = useCallback(callbackFactory("TextBox786", "places", "/places", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/contact"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox787Cb() {
+	const onClick = useCallback(callbackFactory("TextBox787", "places", "/places", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/privacy-policy"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex446Cb() {
+	const onClick = useCallback(callbackFactory("Flex446", "places", "/places", "onClick", 
 			{
   "handlers": [],
   "actions": [
@@ -609,8 +628,32 @@ export function useFlex278Cb() {
 }), [])
 	return { onClick }
 }
-export function useImage175Cb() {
-	const onClick = useCallback(callbackFactory("Image175", "places", "/places", "onClick", 
+export function useFlex447Cb() {
+	const onClick = useCallback(callbackFactory("Flex447", "places", "/places", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex448Cb() {
+	const onClick = useCallback(callbackFactory("Flex448", "places", "/places", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage319Cb() {
+	const onClick = useCallback(callbackFactory("Image319", "places", "/places", "onClick", 
 			{
   "handlers": [
     {
@@ -625,84 +668,8 @@ export function useImage175Cb() {
 }), [])
 	return { onClick }
 }
-export function useImage176Cb() {
-	const onClick = useCallback(callbackFactory("Image176", "places", "/places", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex279Cb() {
-	const onClick = useCallback(callbackFactory("Flex279", "places", "/places", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex280Cb() {
-	const onClick = useCallback(callbackFactory("Flex280", "places", "/places", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex281Cb() {
-	const onClick = useCallback(callbackFactory("Flex281", "places", "/places", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useDiv178Cb() {
-	const onClick = useCallback(callbackFactory("Div178", "places", "/places", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex282Cb() {
-	const onClick = useCallback(callbackFactory("Flex282", "places", "/places", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex283Cb() {
-	const onClick = useCallback(callbackFactory("Flex283", "places", "/places", "onClick", 
+export function useFlex449Cb() {
+	const onClick = useCallback(callbackFactory("Flex449", "places", "/places", "onClick", 
 			{
   "handlers": [],
   "actions": [

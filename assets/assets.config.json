@@ -64,5 +64,20 @@
   },
   "product5.jpg": {
     "mime": "image/jpeg"
+  },
+  "4.jpg": {
+    "mime": "image/jpeg"
+  },
+  "story1.jpg": {
+    "mime": "image/jpeg"
+  },
+  "story2.jpg": {
+    "mime": "image/jpeg"
+  },
+  "story3.jpg": {
+    "mime": "image/jpeg"
+  },
+  "home_page.jpg": {
+    "mime": "image/jpeg"
   }
 }

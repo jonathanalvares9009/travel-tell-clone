@@ -1,104 +1,90 @@
-.p-privacy-policy.Privacy_Body {
+.p-privacy-policy.Privacy_Policy {
 display: flex;
-background-color: ;
 flex-direction: column;
 }
-.p-privacy-policy.Flex167 {
+.p-privacy-policy.Flex364 {
 display: flex;
-background-color: ;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+align-items: center;
+flex-wrap: nowrap;
+align-content: stretch;
+justify-content: space-between;
 }
-.p-privacy-policy.Flex165 {
-display: flex;
-flex-grow: 3;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-.p-privacy-policy.Flex166 {
-display: flex;
-flex-grow: 3;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-.p-privacy-policy.Div145 {
-flex-grow: 1;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-.p-privacy-policy.Div149 {
+.p-privacy-policy.Div227 {
 background-color: ;
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
 }
-.p-privacy-policy.Flex173 {
-display: flex;
-}
-.p-privacy-policy.Div150 {
-flex-grow: 1;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 20px;
-width: ;
-}
-.p-privacy-policy.Flex172 {
-display: flex;
-flex-grow: 3;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-.p-privacy-policy.Flex169 {
-display: flex;
-flex-direction: column;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-margin-right: 100px;
-margin-left: ;
-flex-grow: 1;
-background-color: ;
-}
-.p-privacy-policy.Flex170 {
-display: flex;
-flex-direction: column;
-padding-top: 10px;
-padding-right: 100px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-margin-right: ;
-background-color: ;
-}
-.p-privacy-policy.Flex171 {
-display: flex;
-flex-grow: 1;
-padding-top: 30px;
-padding-right: 30px;
-padding-bottom: 30px;
-padding-left: 30px;
-margin-right: ;
-flex-direction: column;
-}
-.p-privacy-policy.Flex168 {
+.p-privacy-policy.Flex370 {
 display: flex;
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
+align-items: stretch;
+justify-content: center;
+flex-wrap: nowrap;
+align-content: stretch;
+row-gap: 10px;
+column-gap: 30px;
 }
-.p-privacy-policy.Button13 {
+.p-privacy-policy.Flex367 {
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+align-items: stretch;
+justify-content: flex-start;
+align-content: stretch;
+row-gap: ;
+}
+.p-privacy-policy.Flex368 {
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.p-privacy-policy.Flex369 {
+display: flex;
+row-gap: 30px;
+flex-direction: column;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+justify-content: flex-start;
+align-items: stretch;
+align-content: stretch;
+flex-wrap: nowrap;
+}
+.p-privacy-policy.Flex365 {
+display: flex;
+justify-content: center;
+}
+.p-privacy-policy.Flex366 {
+display: flex;
+align-items: stretch;
+justify-content: flex-start;
+flex-wrap: nowrap;
+align-content: stretch;
+column-gap: 30px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-privacy-policy.Button37 {
 color: #fff;
-background-color: #000000;
+background-color: #0f1010;
 padding-top: 8px;
 padding-left: 15px;
 padding-bottom: 8px;
@@ -113,96 +99,47 @@ border-style: solid;
 border-color: #1890ff;
 cursor: pointer;
 user-select: none;
-margin-left: 25px;
-position: absolute;
-right: 25px;
 }
-.p-privacy-policy.TextBox299 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-position: absolute;
-font-weight: 700;
-margin-right: ;
-}
-.p-privacy-policy.TextBox300 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-position: static;
-flex-grow: 1;
-font-weight: 700;
-}
-.p-privacy-policy.TextBox301 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-flex-grow: 1;
-font-weight: 700;
-}
-.p-privacy-policy.TextBox302 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
+.p-privacy-policy.TextBox657 {
 font-family: Poppins;
 font-weight: 700;
-flex-grow: 1;
 }
-.p-privacy-policy.Image125 {
-width: 100px;
+.p-privacy-policy.TextBox658 {
+font-family: Poppins;
+font-weight: 700;
+}
+.p-privacy-policy.TextBox659 {
+font-family: Poppins;
+font-weight: 700;
+}
+.p-privacy-policy.TextBox660 {
+font-family: Poppins;
+font-weight: 700;
+}
+.p-privacy-policy.Image262 {
+width: 150px;
 min-width: 100px;
-max-width: 100px;
+max-width: 200px;
 height: 50px;
 min-height: 50px;
 max-height: 50px;
-margin-left: 100px;
 }
-.p-privacy-policy.TextBox339 {
+.p-privacy-policy.TextBox661 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
 font-family: Poppins;
 }
-.p-privacy-policy.TextBox340 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-font-weight: 700;
-}
-.p-privacy-policy.TextBox341 {
+.p-privacy-policy.TextBox662 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
 font-family: Poppins;
 font-weight: 700;
-font-size: 16px;
 }
-.p-privacy-policy.TextBox342 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-}
-.p-privacy-policy.TextBox343 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-}
-.p-privacy-policy.TextBox344 {
+.p-privacy-policy.TextBox663 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
@@ -211,7 +148,30 @@ font-family: Poppins;
 font-weight: 700;
 font-size: 16px;
 }
-.p-privacy-policy.TextBox345 {
+.p-privacy-policy.TextBox664 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-privacy-policy.TextBox665 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+}
+.p-privacy-policy.TextBox666 {
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+font-family: Poppins;
+font-weight: 700;
+font-size: 16px;
+}
+.p-privacy-policy.TextBox667 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
@@ -219,21 +179,21 @@ padding-left: 10px;
 font-family: Poppins;
 font-weight: 700;
 }
-.p-privacy-policy.TextBox346 {
+.p-privacy-policy.TextBox668 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
 font-family: Poppins;
 }
-.p-privacy-policy.TextBox347 {
+.p-privacy-policy.TextBox669 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
 font-family: Poppins;
 }
-.p-privacy-policy.TextBox348 {
+.p-privacy-policy.TextBox670 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
@@ -242,14 +202,14 @@ font-family: Poppins;
 font-weight: 700;
 font-size: 20px;
 }
-.p-privacy-policy.TextBox349 {
+.p-privacy-policy.TextBox671 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 padding-left: 10px;
 font-family: Poppins;
 }
-.p-privacy-policy.TextBox350 {
+.p-privacy-policy.TextBox672 {
 padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
@@ -258,191 +218,116 @@ font-family: Poppins;
 font-weight: 700;
 font-size: 32px;
 }
-.p-privacy-policy.Image130 {
-width: 300px;
-min-width: 300px;
-max-width: 300px;
-max-height: 300px;
-min-height: 300px;
+.p-privacy-policy.Image267 {
+width: 250px;
+min-width: 250px;
+max-width: 250px;
 height: 300px;
+min-height: 300px;
+max-height: 300px;
 }
-.p-privacy-policy.TextBox351 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
+.p-privacy-policy.TextBox673 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-.p-privacy-policy.TextBox352 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
+.p-privacy-policy.TextBox674 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-.p-privacy-policy.TextBox353 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
+.p-privacy-policy.TextBox675 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-.p-privacy-policy.TextBox354 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
+.p-privacy-policy.TextBox676 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-.p-privacy-policy.TextBox355 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
+.p-privacy-policy.TextBox677 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-.p-privacy-policy.TextBox356 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
+.p-privacy-policy.TextBox678 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-.p-privacy-policy.TextBox357 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
+.p-privacy-policy.TextBox679 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-.p-privacy-policy.TextBox358 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
+.p-privacy-policy.TextBox680 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-.p-privacy-policy.Image129 {
+.p-privacy-policy.Image263 {
 width: 100px;
 min-width: 100px;
 max-width: 100px;
+height: 25px;
+min-height: 25px;
+max-height: 25px;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.p-privacy-policy.Image264 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
 height: 50px;
 min-height: 50px;
 max-height: 50px;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
 }
-.p-privacy-policy.Image126 {
+.p-privacy-policy.Image265 {
 width: 50px;
 min-width: 50px;
 max-width: 50px;
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
 }
-.p-privacy-policy.Image127 {
+.p-privacy-policy.Image266 {
 width: 50px;
 min-width: 50px;
 max-width: 50px;
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
 }
-.p-privacy-policy.Image128 {
-width: 50px;
-min-width: 50px;
-max-width: 50px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
-margin-top: 10px;
-}
-@media screen and (max-width: 478px) {	.p-privacy-policy.Div150 {flex-grow: 1;
-}
-	.p-privacy-policy.Flex172 {flex-direction: column;
-flex-grow: 1;
-}
-	.p-privacy-policy.Flex169 {;
-}
-	.p-privacy-policy.Flex170 {;
-}
-	.p-privacy-policy.Flex171 {;
-}
-	.p-privacy-policy.TextBox351 {;
-}
-	.p-privacy-policy.TextBox352 {;
-}
-	.p-privacy-policy.TextBox353 {;
-}
-	.p-privacy-policy.TextBox354 {;
-}
-	.p-privacy-policy.TextBox355 {padding-bottom: 10px;
-}
-	.p-privacy-policy.TextBox356 {;
-}
-	.p-privacy-policy.TextBox357 {;
-}
-	.p-privacy-policy.TextBox358 {;
-}
-}
-@media screen and (max-width: 991px) {	.p-privacy-policy.Flex169 {flex-grow: 1;
+@media screen and (max-width: 478px) {	.p-privacy-policy.Flex364 {justify-content: center;
 flex-direction: column;
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-}
-	.p-privacy-policy.Flex170 {flex-grow: 1;
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-flex-direction: column;
-}
-	.p-privacy-policy.Flex171 {flex-grow: 1;
-}
-	.p-privacy-policy.TextBox351 {padding-top: 10px;
-padding-left: 10px;
-padding-bottom: 10px;
-padding-right: 10px;
-}
-	.p-privacy-policy.TextBox352 {padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-}
-	.p-privacy-policy.TextBox353 {padding-top: 10px;
-padding-left: 10px;
-padding-bottom: 10px;
-padding-right: 10px;
-}
-	.p-privacy-policy.TextBox354 {padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-}
-	.p-privacy-policy.TextBox355 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-	.p-privacy-policy.TextBox356 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-	.p-privacy-policy.TextBox357 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-	.p-privacy-policy.TextBox358 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
+align-items: center;
 }
 }

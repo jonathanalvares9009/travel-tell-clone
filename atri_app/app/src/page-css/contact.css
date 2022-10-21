@@ -1,71 +1,75 @@
-.p-contact.Flex228 {
+.p-contact.Flex377 {
 display: flex;
-background-color: ;
+flex-direction: column;
 }
-.p-contact.Flex226 {
+.p-contact.Flex378 {
 display: flex;
-flex-grow: 3;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+align-items: center;
+flex-wrap: nowrap;
+align-content: stretch;
+justify-content: space-between;
 }
-.p-contact.Flex227 {
+.p-contact.Flex409 {
 display: flex;
-flex-grow: 3;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
+background-color: #f6f6f6;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+align-content: space-between;
+column-gap: 30px;
 }
-.p-contact.Div154 {
-flex-grow: 1;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-.p-contact.Flex235 {
-display: flex;
-background-color: #edeaea;
-}
-.p-contact.Flex233 {
+.p-contact.Flex407 {
 display: flex;
 flex-grow: 1;
 flex-direction: column;
 background-color: ;
 height: ;
+align-content: space-between;
+justify-content: flex-start;
+column-gap: 0ppx;
+row-gap: 20px;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
 }
-.p-contact.Flex229 {
+.p-contact.Flex403 {
 display: flex;
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
 }
-.p-contact.Flex230 {
+.p-contact.Flex404 {
 display: flex;
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
 }
-.p-contact.Flex231 {
+.p-contact.Flex405 {
 display: flex;
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
+column-gap: 20px;
 }
-.p-contact.Flex232 {
+.p-contact.Flex406 {
 display: flex;
 flex-direction: row;
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
+column-gap: 20px;
 }
-.p-contact.Flex234 {
+.p-contact.Flex408 {
 display: flex;
 flex-grow: 1;
 flex-direction: column;
@@ -74,68 +78,71 @@ padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
 }
-.p-contact.Flex241 {
-display: flex;
-}
-.p-contact.Div155 {
-flex-grow: 1;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 20px;
-width: ;
-}
-.p-contact.Flex240 {
-display: flex;
-flex-grow: 3;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-.p-contact.Flex237 {
-display: flex;
-flex-direction: column;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-margin-right: 100px;
-margin-left: ;
-flex-grow: 1;
-background-color: ;
-}
-.p-contact.Flex238 {
-display: flex;
-flex-direction: column;
-padding-top: 10px;
-padding-right: 100px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-margin-right: ;
-background-color: ;
-}
-.p-contact.Flex239 {
-display: flex;
-flex-grow: 1;
-padding-top: 30px;
-padding-right: 30px;
-padding-bottom: 30px;
-padding-left: 30px;
-margin-right: ;
-flex-direction: column;
-}
-.p-contact.Flex236 {
+.p-contact.Flex421 {
 display: flex;
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
+align-items: stretch;
+justify-content: center;
+flex-wrap: nowrap;
+align-content: stretch;
+row-gap: 10px;
+column-gap: 30px;
 }
-.p-contact.Button20 {
+.p-contact.Flex418 {
+display: flex;
+row-gap: 30px;
+flex-direction: column;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+justify-content: flex-start;
+align-items: stretch;
+align-content: stretch;
+flex-wrap: nowrap;
+}
+.p-contact.Flex416 {
+display: flex;
+align-items: stretch;
+justify-content: flex-start;
+flex-wrap: nowrap;
+align-content: stretch;
+column-gap: 30px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+}
+.p-contact.Flex417 {
+display: flex;
+justify-content: center;
+}
+.p-contact.Flex419 {
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.p-contact.Flex420 {
+display: flex;
+flex-direction: column;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+align-items: stretch;
+justify-content: flex-start;
+align-content: stretch;
+row-gap: ;
+}
+.p-contact.Button38 {
 color: #fff;
-background-color: #000000;
+background-color: #0f1010;
 padding-top: 8px;
 padding-left: 15px;
 padding-bottom: 8px;
@@ -150,58 +157,32 @@ border-style: solid;
 border-color: #1890ff;
 cursor: pointer;
 user-select: none;
-margin-left: 25px;
-position: absolute;
-right: 25px;
 }
-.p-contact.TextBox386 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-position: absolute;
-font-weight: 700;
-margin-right: ;
-}
-.p-contact.TextBox387 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-position: static;
-flex-grow: 1;
-font-weight: 700;
-}
-.p-contact.TextBox388 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-font-family: Poppins;
-flex-grow: 1;
-font-weight: 700;
-}
-.p-contact.TextBox389 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
+.p-contact.TextBox689 {
 font-family: Poppins;
 font-weight: 700;
-flex-grow: 1;
 }
-.p-contact.Image137 {
-width: 100px;
+.p-contact.TextBox690 {
+font-family: Poppins;
+font-weight: 700;
+}
+.p-contact.TextBox691 {
+font-family: Poppins;
+font-weight: 700;
+}
+.p-contact.TextBox692 {
+font-family: Poppins;
+font-weight: 700;
+}
+.p-contact.Image273 {
+width: 150px;
 min-width: 100px;
-max-width: 100px;
+max-width: 200px;
 height: 50px;
 min-height: 50px;
 max-height: 50px;
-margin-left: 100px;
 }
-.p-contact.Button21 {
+.p-contact.Button40 {
 color: #fff;
 background-color: #000000;
 padding-top: 8px;
@@ -220,7 +201,7 @@ cursor: pointer;
 user-select: none;
 flex-grow: 1;
 }
-.p-contact.Input32 {
+.p-contact.Input46 {
 box-sizing: border-box;
 font-variant: tabular-nums;
 font-feature-settings: tnum;
@@ -239,7 +220,7 @@ border-radius: 2px;
 flex-grow: 1;
 height: ;
 }
-.p-contact.Input33 {
+.p-contact.Input47 {
 box-sizing: border-box;
 font-variant: tabular-nums;
 font-feature-settings: tnum;
@@ -257,7 +238,7 @@ border-color: #d9d9d9;
 border-radius: 2px;
 flex-grow: 1;
 }
-.p-contact.Input34 {
+.p-contact.Input48 {
 box-sizing: border-box;
 font-variant: tabular-nums;
 font-feature-settings: tnum;
@@ -274,9 +255,9 @@ border-style: solid;
 border-color: #d9d9d9;
 border-radius: 2px;
 flex-grow: 1;
-margin-right: 10px;
+margin-right: ;
 }
-.p-contact.Input35 {
+.p-contact.Input49 {
 box-sizing: border-box;
 font-variant: tabular-nums;
 font-feature-settings: tnum;
@@ -294,7 +275,7 @@ border-color: #d9d9d9;
 border-radius: 2px;
 flex-grow: 1;
 }
-.p-contact.Input36 {
+.p-contact.Input50 {
 box-sizing: border-box;
 font-variant: tabular-nums;
 font-feature-settings: tnum;
@@ -311,16 +292,16 @@ border-style: solid;
 border-color: #d9d9d9;
 border-radius: 2px;
 flex-grow: 1;
-margin-right: 10px;
+margin-right: ;
 }
-.p-contact.TextBox390 {
+.p-contact.TextBox720 {
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
 font-family: Poppins;
 }
-.p-contact.TextBox391 {
+.p-contact.TextBox721 {
 font-family: Poppins;
 font-weight: 700;
 font-size: 16px;
@@ -329,200 +310,125 @@ padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
 }
-.p-contact.TextBox392 {
+.p-contact.TextBox722 {
 padding-top: 20px;
 padding-right: 20px;
 padding-bottom: 20px;
 padding-left: 20px;
 font-family: Poppins;
-font-weight: 200;
+font-weight: 700;
 font-size: 12px;
 }
-.p-contact.Image142 {
-width: 300px;
-min-width: 300px;
-max-width: 300px;
-max-height: 300px;
-min-height: 300px;
+.p-contact.Image296 {
+width: 250px;
+min-width: 250px;
+max-width: 250px;
 height: 300px;
+min-height: 300px;
+max-height: 300px;
 }
-.p-contact.TextBox393 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-contact.TextBox394 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-contact.TextBox395 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-contact.TextBox396 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-contact.TextBox397 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-contact.TextBox398 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-contact.TextBox399 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-contact.TextBox400 {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-flex-grow: 1;
-}
-.p-contact.Image141 {
-width: 100px;
-min-width: 100px;
-max-width: 100px;
+.p-contact.Image292 {
+width: 50px;
+min-width: 50px;
+max-width: 50px;
 height: 50px;
 min-height: 50px;
 max-height: 50px;
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
 }
-.p-contact.Image138 {
+.p-contact.Image293 {
 width: 50px;
 min-width: 50px;
 max-width: 50px;
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
 }
-.p-contact.Image139 {
+.p-contact.Image294 {
 width: 50px;
 min-width: 50px;
 max-width: 50px;
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
+height: 50px;
+min-height: 50px;
+max-height: 50px;
 }
-.p-contact.Image140 {
-width: 50px;
-min-width: 50px;
-max-width: 50px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
-margin-top: 10px;
+.p-contact.Image295 {
+width: 100px;
+min-width: 100px;
+max-width: 100px;
+height: 25px;
+min-height: 25px;
+max-height: 25px;
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
 }
-@media screen and (max-width: 478px) {	.p-contact.Div155 {flex-grow: 1;
+.p-contact.TextBox731 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-contact.Flex240 {flex-direction: column;
-flex-grow: 1;
+.p-contact.TextBox732 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-contact.Flex237 {;
+.p-contact.TextBox733 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-contact.Flex238 {;
+.p-contact.TextBox734 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-contact.Flex239 {;
+.p-contact.TextBox735 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-contact.TextBox393 {;
+.p-contact.TextBox736 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-contact.TextBox394 {;
+.p-contact.TextBox737 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-contact.TextBox395 {;
+.p-contact.TextBox738 {
+padding-top: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+font-family: Poppins;
+font-weight: 700;
 }
-	.p-contact.TextBox396 {;
-}
-	.p-contact.TextBox397 {padding-bottom: 10px;
-}
-	.p-contact.TextBox398 {;
-}
-	.p-contact.TextBox399 {;
-}
-	.p-contact.TextBox400 {;
-}
-}
-@media screen and (max-width: 991px) {	.p-contact.Flex237 {flex-grow: 1;
+@media screen and (max-width: 478px) {	.p-contact.Flex378 {justify-content: center;
 flex-direction: column;
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-}
-	.p-contact.Flex238 {flex-grow: 1;
-padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-flex-direction: column;
-}
-	.p-contact.Flex239 {flex-grow: 1;
-}
-	.p-contact.TextBox393 {padding-top: 10px;
-padding-left: 10px;
-padding-bottom: 10px;
-padding-right: 10px;
-}
-	.p-contact.TextBox394 {padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-}
-	.p-contact.TextBox395 {padding-top: 10px;
-padding-left: 10px;
-padding-bottom: 10px;
-padding-right: 10px;
-}
-	.p-contact.TextBox396 {padding-top: 10px;
-padding-left: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-}
-	.p-contact.TextBox397 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-	.p-contact.TextBox398 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-	.p-contact.TextBox399 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
-	.p-contact.TextBox400 {padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
+align-items: center;
 }
 }

@@ -40,40 +40,166 @@ export function updateStoreStateFromController(pageName, newState) {
 const desktopModeProps = {
   ...{
   "Home": {
-    "Flex99": {
+    "Body": {
       "callbacks": {}
     },
-    "Flex105": {
+    "Flex819": {
       "callbacks": {}
     },
-    "Div121": {
+    "Flex833": {
       "callbacks": {}
     },
-    "Flex104": {
+    "Flex832": {
       "callbacks": {}
     },
-    "Flex101": {
+    "Flex831": {
       "callbacks": {}
     },
-    "Flex102": {
+    "Div380": {
       "callbacks": {}
     },
-    "Flex103": {
+    "Div381": {
       "callbacks": {}
     },
-    "Flex100": {
+    "Div382": {
       "callbacks": {}
     },
-    "Flex129": {
+    "Div383": {
       "callbacks": {}
     },
-    "Flex127": {
+    "Div384": {
       "callbacks": {}
     },
-    "Flex128": {
+    "Div385": {
       "callbacks": {}
     },
-    "Div127": {
+    "Flex856": {
+      "callbacks": {}
+    },
+    "Flex854": {
+      "callbacks": {}
+    },
+    "Flex849": {
+      "callbacks": {}
+    },
+    "Flex850": {
+      "callbacks": {}
+    },
+    "Flex843": {
+      "callbacks": {}
+    },
+    "Flex837": {
+      "callbacks": {}
+    },
+    "Flex844": {
+      "callbacks": {}
+    },
+    "Flex838": {
+      "callbacks": {}
+    },
+    "Flex845": {
+      "callbacks": {}
+    },
+    "Flex839": {
+      "callbacks": {}
+    },
+    "Flex855": {
+      "callbacks": {}
+    },
+    "Flex851": {
+      "callbacks": {}
+    },
+    "Flex846": {
+      "callbacks": {}
+    },
+    "Flex840": {
+      "callbacks": {}
+    },
+    "Flex834": {
+      "callbacks": {}
+    },
+    "Flex852": {
+      "callbacks": {}
+    },
+    "Flex847": {
+      "callbacks": {}
+    },
+    "Flex841": {
+      "callbacks": {}
+    },
+    "Flex835": {
+      "callbacks": {}
+    },
+    "Flex853": {
+      "callbacks": {}
+    },
+    "Flex848": {
+      "callbacks": {}
+    },
+    "Flex842": {
+      "callbacks": {}
+    },
+    "Flex836": {
+      "callbacks": {}
+    },
+    "Div386": {
+      "callbacks": {}
+    },
+    "Flex857": {
+      "callbacks": {}
+    },
+    "Flex858": {
+      "callbacks": {}
+    },
+    "Div387": {
+      "callbacks": {}
+    },
+    "Flex859": {
+      "callbacks": {}
+    },
+    "Flex860": {
+      "callbacks": {}
+    },
+    "Div389": {
+      "callbacks": {}
+    },
+    "Flex862": {
+      "callbacks": {}
+    },
+    "Flex861": {
+      "callbacks": {}
+    },
+    "Div388": {
+      "callbacks": {}
+    },
+    "Div391": {
+      "callbacks": {}
+    },
+    "Flex864": {
+      "callbacks": {}
+    },
+    "Flex863": {
+      "callbacks": {}
+    },
+    "Div390": {
+      "callbacks": {}
+    },
+    "Flex870": {
+      "callbacks": {}
+    },
+    "Flex867": {
+      "callbacks": {}
+    },
+    "Flex865": {
+      "callbacks": {}
+    },
+    "Flex866": {
+      "callbacks": {}
+    },
+    "Flex868": {
+      "callbacks": {}
+    },
+    "Flex869": {
       "callbacks": {}
     },
     "Carousel1": {
@@ -90,10 +216,25 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image93": {
+    "Image718": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/celebrations.svg"
+        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox1268": {
+      "custom": {
+        "text": "Explore"
       },
       "callbacks": {
         "onClick": [
@@ -103,52 +244,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox129": {
-      "custom": {
-        "text": "Terms and Conditions"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/terms"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox130": {
-      "custom": {
-        "text": "Privacy Policy"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/privacy-policy"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox131": {
-      "custom": {
-        "text": "Contact"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/contact"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox132": {
+    "TextBox1269": {
       "custom": {
         "text": "Shop"
       },
@@ -163,7 +259,1107 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox133": {
+    "TextBox1270": {
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/contact"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox1271": {
+      "custom": {
+        "text": "Sign In"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Button81": {
+      "custom": {
+        "text": "Become a TravelTeller"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1312": {
+      "custom": {
+        "text": "Featured Posts"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Input112": {
+      "custom": {
+        "value": "",
+        "placeholder": "Search"
+      },
+      "callbacks": {}
+    },
+    "TextBox1313": {
+      "custom": {
+        "text": "A community of travellers and story tellers"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1304": {
+      "custom": {
+        "text": "Japan Like you've never seen before"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image757": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1305": {
+      "custom": {
+        "text": "Japan Like you've never seen before"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image758": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story3.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1306": {
+      "custom": {
+        "text": "Japan Like you've never seen before"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image759": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1307": {
+      "custom": {
+        "text": "Japan Like you've never seen before"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image760": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story3.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1308": {
+      "custom": {
+        "text": "India's People, Places and Events"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image761": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic3.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image762": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story2.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image763": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic2.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1309": {
+      "custom": {
+        "text": "Africa's People and Culture"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image764": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image765": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story3.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1310": {
+      "custom": {
+        "text": "Japan Like you've never seen before"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image766": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1311": {
+      "custom": {
+        "text": "Japan Like you've never seen before"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image767": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/home_page.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1332": {
+      "custom": {
+        "text": "Category Tags"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1333": {
+      "custom": {
+        "text": "Top Travellers"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1329": {
+      "custom": {
+        "text": "Culture"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1330": {
+      "custom": {
+        "text": "Inspiration"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1331": {
+      "custom": {
+        "text": "Places"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image771": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic3.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1317": {
+      "custom": {
+        "text": "Natasha Miles"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1318": {
+      "custom": {
+        "text": "Melbourne, Australia"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image772": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic2.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1319": {
+      "custom": {
+        "text": "Mason Miller"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1320": {
+      "custom": {
+        "text": "Amsterdam, Netherlands"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image773": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1321": {
+      "custom": {
+        "text": "New York, USA"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1322": {
+      "custom": {
+        "text": "Rachel Mindy"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1334": {
+      "custom": {
+        "text": "Stories"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image774": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story3.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1323": {
+      "custom": {
+        "text": "Japan Like you've never seen it"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1324": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image768": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1314": {
+      "custom": {
+        "text": "Rachel Mindy"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image775": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story2.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1325": {
+      "custom": {
+        "text": "India's Places and People"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1326": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image769": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic2.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1315": {
+      "custom": {
+        "text": "Mason Miller"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image776": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1327": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1328": {
+      "custom": {
+        "text": "Africa's People and culture"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image770": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1316": {
+      "custom": {
+        "text": "Rachel Mindy"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image777": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/signup-background.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1335": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1336": {
+      "custom": {
+        "text": "Sign up for our newsletter"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Button83": {
+      "custom": {
+        "text": "Sign Up"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Input113": {
+      "custom": {
+        "value": "",
+        "placeholder": "Email Address*"
+      },
+      "callbacks": {}
+    },
+    "Input114": {
+      "custom": {
+        "value": "",
+        "placeholder": "Last Name*"
+      },
+      "callbacks": {}
+    },
+    "Input115": {
+      "custom": {
+        "value": "",
+        "placeholder": "First Name*"
+      },
+      "callbacks": {}
+    },
+    "Image778": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/signup-background.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1337": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1338": {
+      "custom": {
+        "text": "Sign up for our newsletter"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Button84": {
+      "custom": {
+        "text": "Sign Up"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Input116": {
+      "custom": {
+        "value": "",
+        "placeholder": "Email Address*"
+      },
+      "callbacks": {}
+    },
+    "Input117": {
+      "custom": {
+        "value": "",
+        "placeholder": "Last Name*"
+      },
+      "callbacks": {}
+    },
+    "Input118": {
+      "custom": {
+        "value": "",
+        "placeholder": "First Name*"
+      },
+      "callbacks": {}
+    },
+    "Image783": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/celebrations.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Button85": {
+      "custom": {
+        "text": "Get Started"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1339": {
+      "custom": {
+        "text": "Become a TravelTeller"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1340": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image779": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image780": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/2.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image781": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/3.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image782": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/4.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image788": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/celebrations.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Button86": {
+      "custom": {
+        "text": "Get Started"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1341": {
+      "custom": {
+        "text": "Become a TravelTeller"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1342": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet."
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image784": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image785": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/2.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image786": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/3.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image787": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/4.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image793": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/celebrations.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image789": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/facebook.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.facebook.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image790": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/linkedin.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.linkedin.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image791": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/twitter.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.twitter.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image792": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox1343": {
       "custom": {
         "text": "Videos"
       },
@@ -178,37 +1374,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox134": {
-      "custom": {
-        "text": "TravelTellers"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/traveltellers"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox135": {
-      "custom": {
-        "text": "Places"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/places"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox136": {
+    "TextBox1344": {
       "custom": {
         "text": "Blog"
       },
@@ -223,170 +1389,194 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image92": {
+    "TextBox1345": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+        "text": "Places"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/places"
+            }
           }
         ]
       }
     },
-    "Image89": {
+    "TextBox1346": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/twitter.png"
+        "text": "TravelTellers"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/traveltellers"
+            }
           }
         ]
       }
     },
-    "Image90": {
+    "TextBox1347": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/linkedin.png"
+        "text": "Terms & Conditions"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/terms"
+            }
           }
         ]
       }
     },
-    "Image91": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/facebook.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Button3": {
-      "custom": {
-        "text": "Become a TravelTeller"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox165": {
-      "custom": {
-        "text": "Sign In"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox166": {
-      "custom": {
-        "text": "Contact"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox167": {
+    "TextBox1348": {
       "custom": {
         "text": "Shop"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
           }
         ]
       }
     },
-    "TextBox168": {
+    "TextBox1349": {
       "custom": {
-        "text": "Explore"
+        "text": "Contact"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/contact"
+            }
           }
         ]
       }
     },
-    "Image110": {
+    "TextBox1350": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+        "text": "Privacy Policy"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/privacy-policy"
+            }
           }
         ]
       }
     }
   },
   "blog": {
-    "Flex80": {
+    "Flex541": {
       "callbacks": {}
     },
-    "Div115": {
+    "Flex542": {
       "callbacks": {}
     },
-    "Flex79": {
+    "Flex588": {
       "callbacks": {}
     },
-    "Flex76": {
+    "Flex586": {
       "callbacks": {}
     },
-    "Flex77": {
+    "Flex581": {
       "callbacks": {}
     },
-    "Flex78": {
+    "Flex582": {
       "callbacks": {}
     },
-    "Flex75": {
+    "Flex575": {
       "callbacks": {}
     },
-    "Flex132": {
+    "Flex569": {
       "callbacks": {}
     },
-    "Flex130": {
+    "Flex576": {
       "callbacks": {}
     },
-    "Flex131": {
+    "Flex570": {
       "callbacks": {}
     },
-    "Div128": {
+    "Flex577": {
       "callbacks": {}
     },
-    "Image73": {
+    "Flex571": {
+      "callbacks": {}
+    },
+    "Flex587": {
+      "callbacks": {}
+    },
+    "Flex583": {
+      "callbacks": {}
+    },
+    "Flex578": {
+      "callbacks": {}
+    },
+    "Flex572": {
+      "callbacks": {}
+    },
+    "Flex566": {
+      "callbacks": {}
+    },
+    "Flex584": {
+      "callbacks": {}
+    },
+    "Flex579": {
+      "callbacks": {}
+    },
+    "Flex573": {
+      "callbacks": {}
+    },
+    "Flex567": {
+      "callbacks": {}
+    },
+    "Flex585": {
+      "callbacks": {}
+    },
+    "Flex580": {
+      "callbacks": {}
+    },
+    "Flex574": {
+      "callbacks": {}
+    },
+    "Flex568": {
+      "callbacks": {}
+    },
+    "Flex618": {
+      "callbacks": {}
+    },
+    "Flex615": {
+      "callbacks": {}
+    },
+    "Flex613": {
+      "callbacks": {}
+    },
+    "Flex614": {
+      "callbacks": {}
+    },
+    "Flex616": {
+      "callbacks": {}
+    },
+    "Flex617": {
+      "callbacks": {}
+    },
+    "Button58": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/celebrations.svg"
+        "text": "Become a TravelTeller"
       },
       "callbacks": {
         "onClick": [
@@ -396,37 +1586,19 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox97": {
+    "TextBox887": {
       "custom": {
-        "text": "Terms and Conditions"
+        "text": "Sign In"
       },
       "callbacks": {
         "onClick": [
           {
-            "navigate": {
-              "type": "internal",
-              "url": "/terms"
-            }
+            "sendEventData": true
           }
         ]
       }
     },
-    "TextBox98": {
-      "custom": {
-        "text": "Privacy Policy"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/privacy-policy"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox99": {
+    "TextBox888": {
       "custom": {
         "text": "Contact"
       },
@@ -441,7 +1613,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox100": {
+    "TextBox889": {
       "custom": {
         "text": "Shop"
       },
@@ -456,7 +1628,484 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox101": {
+    "TextBox890": {
+      "custom": {
+        "text": "Explore"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image401": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox930": {
+      "custom": {
+        "text": "Category Tags"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox931": {
+      "custom": {
+        "text": "Top Travellers"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox927": {
+      "custom": {
+        "text": "Culture"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox928": {
+      "custom": {
+        "text": "Inspiration"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox929": {
+      "custom": {
+        "text": "Places"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image414": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic3.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox915": {
+      "custom": {
+        "text": "Natasha Miles"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox916": {
+      "custom": {
+        "text": "Melbourne, Australia"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image415": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic2.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox917": {
+      "custom": {
+        "text": "Mason Miller"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox918": {
+      "custom": {
+        "text": "Amsterdam, Netherlands"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image416": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox919": {
+      "custom": {
+        "text": "New York, USA"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox920": {
+      "custom": {
+        "text": "Rachel Mindy"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox932": {
+      "custom": {
+        "text": "Stories"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image417": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story3.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox921": {
+      "custom": {
+        "text": "Japan Like you've never seen it"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox922": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image411": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox912": {
+      "custom": {
+        "text": "Rachel Mindy"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image418": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story2.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox923": {
+      "custom": {
+        "text": "India's Places and People"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox924": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image412": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic2.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox913": {
+      "custom": {
+        "text": "Mason Miller"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image419": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox925": {
+      "custom": {
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox926": {
+      "custom": {
+        "text": "Africa's People and culture"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image413": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox914": {
+      "custom": {
+        "text": "Rachel Mindy"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image444": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/celebrations.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image440": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/facebook.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.facebook.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image441": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/linkedin.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.linkedin.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image442": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/twitter.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.twitter.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image443": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox965": {
       "custom": {
         "text": "Videos"
       },
@@ -471,37 +2120,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox102": {
-      "custom": {
-        "text": "TravelTellers"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/traveltellers"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox103": {
-      "custom": {
-        "text": "Places"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/places"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox104": {
+    "TextBox966": {
       "custom": {
         "text": "Blog"
       },
@@ -516,127 +2135,92 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image72": {
+    "TextBox967": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+        "text": "Places"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/places"
+            }
           }
         ]
       }
     },
-    "Image69": {
+    "TextBox968": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/twitter.png"
+        "text": "TravelTellers"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/traveltellers"
+            }
           }
         ]
       }
     },
-    "Image70": {
+    "TextBox969": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/linkedin.png"
+        "text": "Terms & Conditions"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/terms"
+            }
           }
         ]
       }
     },
-    "Image71": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/facebook.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Button4": {
-      "custom": {
-        "text": "Become a TravelTeller"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox169": {
-      "custom": {
-        "text": "Sign In"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox170": {
-      "custom": {
-        "text": "Contact"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox171": {
+    "TextBox970": {
       "custom": {
         "text": "Shop"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
           }
         ]
       }
     },
-    "TextBox172": {
+    "TextBox971": {
       "custom": {
-        "text": "Explore"
+        "text": "Contact"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/contact"
+            }
           }
         ]
       }
     },
-    "Image111": {
+    "TextBox972": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+        "text": "Privacy Policy"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/privacy-policy"
+            }
           }
         ]
       }
@@ -644,18 +2228,6 @@ const desktopModeProps = {
   },
   "places": {
     "Places_Body": {
-      "callbacks": {}
-    },
-    "Flex275": {
-      "callbacks": {}
-    },
-    "Flex273": {
-      "callbacks": {}
-    },
-    "Flex274": {
-      "callbacks": {}
-    },
-    "Div173": {
       "callbacks": {}
     },
     "Flex277": {
@@ -676,108 +2248,26 @@ const desktopModeProps = {
     "Div177": {
       "callbacks": {}
     },
-    "Flex283": {
+    "Flex443": {
       "callbacks": {}
     },
-    "Div178": {
+    "Flex449": {
       "callbacks": {}
     },
-    "Flex282": {
+    "Flex446": {
       "callbacks": {}
     },
-    "Flex279": {
+    "Flex444": {
       "callbacks": {}
     },
-    "Flex280": {
+    "Flex445": {
       "callbacks": {}
     },
-    "Flex281": {
+    "Flex447": {
       "callbacks": {}
     },
-    "Flex278": {
+    "Flex448": {
       "callbacks": {}
-    },
-    "Button24": {
-      "custom": {
-        "text": "Become a TravelTeller"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox450": {
-      "custom": {
-        "text": "Sign In"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox451": {
-      "custom": {
-        "text": "Contact"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/contact"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox452": {
-      "custom": {
-        "text": "Shop"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/shop"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox453": {
-      "custom": {
-        "text": "Explore"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image167": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/"
-            }
-          }
-        ]
-      }
     },
     "TextBox458": {
       "custom": {
@@ -903,10 +2393,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image176": {
+    "Button43": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/celebrations.svg"
+        "text": "Become a TravelTeller"
       },
       "callbacks": {
         "onClick": [
@@ -916,37 +2405,19 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox460": {
+    "TextBox776": {
       "custom": {
-        "text": "Terms and Conditions"
+        "text": "Sign In"
       },
       "callbacks": {
         "onClick": [
           {
-            "navigate": {
-              "type": "internal",
-              "url": "/terms"
-            }
+            "sendEventData": true
           }
         ]
       }
     },
-    "TextBox461": {
-      "custom": {
-        "text": "Privacy Policy"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/privacy-policy"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox462": {
+    "TextBox777": {
       "custom": {
         "text": "Contact"
       },
@@ -961,7 +2432,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox463": {
+    "TextBox778": {
       "custom": {
         "text": "Shop"
       },
@@ -970,13 +2441,121 @@ const desktopModeProps = {
           {
             "navigate": {
               "type": "internal",
-              "url": "/shop "
+              "url": "/shop"
             }
           }
         ]
       }
     },
-    "TextBox464": {
+    "TextBox779": {
+      "custom": {
+        "text": "Explore"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image314": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "Image319": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/celebrations.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image315": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/facebook.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.facebook.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image316": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/linkedin.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.linkedin.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image317": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/twitter.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.twitter.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image318": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox780": {
       "custom": {
         "text": "Videos"
       },
@@ -991,37 +2570,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox465": {
-      "custom": {
-        "text": "TravelTellers"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/traveltellers"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox466": {
-      "custom": {
-        "text": "Places"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/places"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox467": {
+    "TextBox781": {
       "custom": {
         "text": "Blog"
       },
@@ -1036,54 +2585,92 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image175": {
+    "TextBox782": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+        "text": "Places"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/places"
+            }
           }
         ]
       }
     },
-    "Image172": {
+    "TextBox783": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/twitter.png"
+        "text": "TravelTellers"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/traveltellers"
+            }
           }
         ]
       }
     },
-    "Image173": {
+    "TextBox784": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/linkedin.png"
+        "text": "Terms & Conditions"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/terms"
+            }
           }
         ]
       }
     },
-    "Image174": {
+    "TextBox785": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/facebook.png"
+        "text": "Shop"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox786": {
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/contact"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox787": {
+      "custom": {
+        "text": "Privacy Policy"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/privacy-policy"
+            }
           }
         ]
       }
@@ -1093,16 +2680,22 @@ const desktopModeProps = {
     "Videos_Body": {
       "callbacks": {}
     },
-    "Flex287": {
+    "Flex442": {
       "callbacks": {}
     },
-    "Flex285": {
+    "Flex439": {
       "callbacks": {}
     },
-    "Flex286": {
+    "Flex437": {
       "callbacks": {}
     },
-    "Div179": {
+    "Flex438": {
+      "callbacks": {}
+    },
+    "Flex440": {
+      "callbacks": {}
+    },
+    "Flex441": {
       "callbacks": {}
     },
     "Flex299": {
@@ -1123,30 +2716,13 @@ const desktopModeProps = {
     "Div203": {
       "callbacks": {}
     },
-    "Flex305": {
+    "Flex430": {
       "callbacks": {}
     },
-    "Div204": {
-      "callbacks": {}
-    },
-    "Flex304": {
-      "callbacks": {}
-    },
-    "Flex301": {
-      "callbacks": {}
-    },
-    "Flex302": {
-      "callbacks": {}
-    },
-    "Flex303": {
-      "callbacks": {}
-    },
-    "Flex300": {
-      "callbacks": {}
-    },
-    "Button25": {
+    "Image313": {
       "custom": {
-        "text": "Become a TravelTeller"
+        "alt": "No preview available",
+        "src": "/app-assets/celebrations.svg"
       },
       "callbacks": {
         "onClick": [
@@ -1156,34 +2732,149 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox468": {
+    "Image309": {
       "custom": {
-        "text": "Sign In"
+        "alt": "No preview available",
+        "src": "/app-assets/facebook.png"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "external",
+              "url": "www.facebook.com",
+              "target": "_blank"
+            }
           }
         ]
       }
     },
-    "TextBox469": {
+    "Image310": {
       "custom": {
-        "text": "Contact"
+        "alt": "No preview available",
+        "src": "/app-assets/linkedin.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.linkedin.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image311": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/twitter.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.twitter.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image312": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
       },
       "callbacks": {
         "onClick": [
           {
             "navigate": {
               "type": "internal",
-              "url": "/contact"
+              "url": "/"
             }
           }
         ]
       }
     },
-    "TextBox470": {
+    "TextBox768": {
+      "custom": {
+        "text": "Videos"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/videos"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox769": {
+      "custom": {
+        "text": "Blog"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/blog"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox770": {
+      "custom": {
+        "text": "Places"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/places"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox771": {
+      "custom": {
+        "text": "TravelTellers"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/traveltellers"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox772": {
+      "custom": {
+        "text": "Terms & Conditions"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/terms"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox773": {
       "custom": {
         "text": "Shop"
       },
@@ -1198,29 +2889,31 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox471": {
+    "TextBox774": {
       "custom": {
-        "text": "Explore"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image177": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+        "text": "Contact"
       },
       "callbacks": {
         "onClick": [
           {
             "navigate": {
               "type": "internal",
-              "url": "/"
+              "url": "/contact"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox775": {
+      "custom": {
+        "text": "Privacy Policy"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/privacy-policy"
             }
           }
         ]
@@ -1350,10 +3043,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image206": {
+    "Button42": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/celebrations.svg"
+        "text": "Become a TravelTeller"
       },
       "callbacks": {
         "onClick": [
@@ -1363,37 +3055,19 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox508": {
+    "TextBox756": {
       "custom": {
-        "text": "Terms and Conditions"
+        "text": "Sign In"
       },
       "callbacks": {
         "onClick": [
           {
-            "navigate": {
-              "type": "internal",
-              "url": "/terms"
-            }
+            "sendEventData": true
           }
         ]
       }
     },
-    "TextBox509": {
-      "custom": {
-        "text": "Privacy Policy"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/privacy-policy"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox510": {
+    "TextBox757": {
       "custom": {
         "text": "Contact"
       },
@@ -1408,7 +3082,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox511": {
+    "TextBox758": {
       "custom": {
         "text": "Shop"
       },
@@ -1417,73 +3091,25 @@ const desktopModeProps = {
           {
             "navigate": {
               "type": "internal",
-              "url": "/shop "
+              "url": "/shop"
             }
           }
         ]
       }
     },
-    "TextBox512": {
+    "TextBox759": {
       "custom": {
-        "text": "Videos"
+        "text": "Explore"
       },
       "callbacks": {
         "onClick": [
           {
-            "navigate": {
-              "type": "internal",
-              "url": "/videos"
-            }
+            "sendEventData": true
           }
         ]
       }
     },
-    "TextBox513": {
-      "custom": {
-        "text": "TravelTellers"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/traveltellers"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox514": {
-      "custom": {
-        "text": "Places"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/places"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox515": {
-      "custom": {
-        "text": "Blog"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/blog"
-            }
-          }
-        ]
-      }
-    },
-    "Image205": {
+    "Image303": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
@@ -1491,46 +3117,10 @@ const desktopModeProps = {
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image202": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/twitter.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image203": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/linkedin.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image204": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/facebook.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
           }
         ]
       }
@@ -1538,18 +3128,6 @@ const desktopModeProps = {
   },
   "traveltellers": {
     "Travel_Teller_Body": {
-      "callbacks": {}
-    },
-    "Flex258": {
-      "callbacks": {}
-    },
-    "Flex256": {
-      "callbacks": {}
-    },
-    "Flex257": {
-      "callbacks": {}
-    },
-    "Div161": {
       "callbacks": {}
     },
     "Flex263": {
@@ -1570,105 +3148,26 @@ const desktopModeProps = {
     "Div162": {
       "callbacks": {}
     },
-    "Flex269": {
+    "Flex451": {
       "callbacks": {}
     },
-    "Div163": {
+    "Flex457": {
       "callbacks": {}
     },
-    "Flex268": {
+    "Flex454": {
       "callbacks": {}
     },
-    "Flex265": {
+    "Flex452": {
       "callbacks": {}
     },
-    "Flex266": {
+    "Flex453": {
       "callbacks": {}
     },
-    "Flex267": {
+    "Flex455": {
       "callbacks": {}
     },
-    "Flex264": {
+    "Flex456": {
       "callbacks": {}
-    },
-    "Button23": {
-      "custom": {
-        "text": "Become a TravelTeller"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox417": {
-      "custom": {
-        "text": "Sign In"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox418": {
-      "custom": {
-        "text": "Contact"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/contact"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox419": {
-      "custom": {
-        "text": "Shop"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox420": {
-      "custom": {
-        "text": "Explore"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image150": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/"
-            }
-          }
-        ]
-      }
     },
     "Image151": {
       "custom": {
@@ -1812,248 +3311,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image158": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/celebrations.svg"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox429": {
-      "custom": {
-        "text": "Terms and Conditions"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/terms"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox430": {
-      "custom": {
-        "text": "Privacy Policy"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/privacy-policy"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox431": {
-      "custom": {
-        "text": "Contact"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/contact"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox432": {
-      "custom": {
-        "text": "Shop"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/shop "
-            }
-          }
-        ]
-      }
-    },
-    "TextBox433": {
-      "custom": {
-        "text": "Videos"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/videos"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox434": {
-      "custom": {
-        "text": "TravelTellers"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/traveltellers"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox435": {
-      "custom": {
-        "text": "Places"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/places"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox436": {
-      "custom": {
-        "text": "Blog"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/blog"
-            }
-          }
-        ]
-      }
-    },
-    "Image157": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image154": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/twitter.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image155": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/linkedin.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image156": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/facebook.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    }
-  },
-  "contact": {
-    "Flex228": {
-      "callbacks": {}
-    },
-    "Flex226": {
-      "callbacks": {}
-    },
-    "Flex227": {
-      "callbacks": {}
-    },
-    "Div154": {
-      "callbacks": {}
-    },
-    "Flex235": {
-      "callbacks": {}
-    },
-    "Flex233": {
-      "callbacks": {}
-    },
-    "Flex229": {
-      "callbacks": {}
-    },
-    "Flex230": {
-      "callbacks": {}
-    },
-    "Flex231": {
-      "callbacks": {}
-    },
-    "Flex232": {
-      "callbacks": {}
-    },
-    "Flex234": {
-      "callbacks": {}
-    },
-    "Flex241": {
-      "callbacks": {}
-    },
-    "Div155": {
-      "callbacks": {}
-    },
-    "Flex240": {
-      "callbacks": {}
-    },
-    "Flex237": {
-      "callbacks": {}
-    },
-    "Flex238": {
-      "callbacks": {}
-    },
-    "Flex239": {
-      "callbacks": {}
-    },
-    "Flex236": {
-      "callbacks": {}
-    },
-    "Button20": {
+    "Button45": {
       "custom": {
         "text": "Become a TravelTeller"
       },
@@ -2065,7 +3323,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox386": {
+    "TextBox792": {
       "custom": {
         "text": "Sign In"
       },
@@ -2077,7 +3335,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox387": {
+    "TextBox793": {
       "custom": {
         "text": "Contact"
       },
@@ -2092,19 +3350,22 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox388": {
+    "TextBox794": {
       "custom": {
         "text": "Shop"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
           }
         ]
       }
     },
-    "TextBox389": {
+    "TextBox795": {
       "custom": {
         "text": "Explore"
       },
@@ -2116,7 +3377,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image137": {
+    "Image321": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
@@ -2132,7 +3393,336 @@ const desktopModeProps = {
         ]
       }
     },
-    "Button21": {
+    "Image326": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/celebrations.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image322": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/facebook.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.facebook.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image323": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/linkedin.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.linkedin.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image324": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/twitter.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.twitter.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image325": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox796": {
+      "custom": {
+        "text": "Videos"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/videos"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox797": {
+      "custom": {
+        "text": "Blog"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/blog"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox798": {
+      "custom": {
+        "text": "Places"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/places"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox799": {
+      "custom": {
+        "text": "TravelTellers"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/traveltellers"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox800": {
+      "custom": {
+        "text": "Terms & Conditions"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/terms"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox801": {
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox802": {
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/contact"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox803": {
+      "custom": {
+        "text": "Privacy Policy"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/privacy-policy"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "contact": {
+    "Flex377": {
+      "callbacks": {}
+    },
+    "Flex378": {
+      "callbacks": {}
+    },
+    "Flex409": {
+      "callbacks": {}
+    },
+    "Flex407": {
+      "callbacks": {}
+    },
+    "Flex403": {
+      "callbacks": {}
+    },
+    "Flex404": {
+      "callbacks": {}
+    },
+    "Flex405": {
+      "callbacks": {}
+    },
+    "Flex406": {
+      "callbacks": {}
+    },
+    "Flex408": {
+      "callbacks": {}
+    },
+    "Flex421": {
+      "callbacks": {}
+    },
+    "Flex418": {
+      "callbacks": {}
+    },
+    "Flex416": {
+      "callbacks": {}
+    },
+    "Flex417": {
+      "callbacks": {}
+    },
+    "Flex419": {
+      "callbacks": {}
+    },
+    "Flex420": {
+      "callbacks": {}
+    },
+    "Button38": {
+      "custom": {
+        "text": "Become a TravelTeller"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox689": {
+      "custom": {
+        "text": "Sign In"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox690": {
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/contact"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox691": {
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox692": {
+      "custom": {
+        "text": "Explore"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image273": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "Button40": {
       "custom": {
         "text": "Submit"
       },
@@ -2144,42 +3734,42 @@ const desktopModeProps = {
         ]
       }
     },
-    "Input32": {
+    "Input46": {
       "custom": {
         "value": "",
         "placeholder": "Your message..."
       },
       "callbacks": {}
     },
-    "Input33": {
+    "Input47": {
       "custom": {
         "value": "",
         "placeholder": "Phone Number"
       },
       "callbacks": {}
     },
-    "Input34": {
+    "Input48": {
       "custom": {
         "value": "",
         "placeholder": "Email Address*"
       },
       "callbacks": {}
     },
-    "Input35": {
+    "Input49": {
       "custom": {
         "value": "",
         "placeholder": "Last Name*"
       },
       "callbacks": {}
     },
-    "Input36": {
+    "Input50": {
       "custom": {
         "value": "",
         "placeholder": "First Name*"
       },
       "callbacks": {}
     },
-    "TextBox390": {
+    "TextBox720": {
       "custom": {
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique."
       },
@@ -2191,7 +3781,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox391": {
+    "TextBox721": {
       "custom": {
         "text": "Send us a message."
       },
@@ -2203,7 +3793,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox392": {
+    "TextBox722": {
       "custom": {
         "text": "HAVE QUESTIONS?"
       },
@@ -2215,7 +3805,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image142": {
+    "Image296": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/celebrations.svg"
@@ -2228,67 +3818,74 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox393": {
+    "Image292": {
       "custom": {
-        "text": "Terms and Conditions"
+        "alt": "No preview available",
+        "src": "/app-assets/facebook.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.facebook.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image293": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/linkedin.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.linkedin.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image294": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/twitter.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.twitter.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image295": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
       },
       "callbacks": {
         "onClick": [
           {
             "navigate": {
               "type": "internal",
-              "url": "/terms"
+              "url": "/"
             }
           }
         ]
       }
     },
-    "TextBox394": {
-      "custom": {
-        "text": "Privacy Policy"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/privacy-policy"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox395": {
-      "custom": {
-        "text": "Contact"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/contact"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox396": {
-      "custom": {
-        "text": "Shop"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/shop "
-            }
-          }
-        ]
-      }
-    },
-    "TextBox397": {
+    "TextBox731": {
       "custom": {
         "text": "Videos"
       },
@@ -2303,37 +3900,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox398": {
-      "custom": {
-        "text": "TravelTellers"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/traveltellers"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox399": {
-      "custom": {
-        "text": "Places"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/places"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox400": {
+    "TextBox732": {
       "custom": {
         "text": "Blog"
       },
@@ -2348,100 +3915,126 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image141": {
+    "TextBox733": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+        "text": "Places"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/places"
+            }
           }
         ]
       }
     },
-    "Image138": {
+    "TextBox734": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/twitter.png"
+        "text": "TravelTellers"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/traveltellers"
+            }
           }
         ]
       }
     },
-    "Image139": {
+    "TextBox735": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/linkedin.png"
+        "text": "Terms & Conditions"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/terms"
+            }
           }
         ]
       }
     },
-    "Image140": {
+    "TextBox736": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/facebook.png"
+        "text": "Shop"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox737": {
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/contact"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox738": {
+      "custom": {
+        "text": "Privacy Policy"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/privacy-policy"
+            }
           }
         ]
       }
     }
   },
   "privacy-policy": {
-    "Privacy_Body": {
+    "Privacy_Policy": {
       "callbacks": {}
     },
-    "Flex167": {
+    "Flex364": {
       "callbacks": {}
     },
-    "Flex165": {
+    "Div227": {
       "callbacks": {}
     },
-    "Flex166": {
+    "Flex370": {
       "callbacks": {}
     },
-    "Div145": {
+    "Flex367": {
       "callbacks": {}
     },
-    "Div149": {
+    "Flex368": {
       "callbacks": {}
     },
-    "Flex173": {
+    "Flex369": {
       "callbacks": {}
     },
-    "Div150": {
+    "Flex365": {
       "callbacks": {}
     },
-    "Flex172": {
+    "Flex366": {
       "callbacks": {}
     },
-    "Flex169": {
-      "callbacks": {}
-    },
-    "Flex170": {
-      "callbacks": {}
-    },
-    "Flex171": {
-      "callbacks": {}
-    },
-    "Flex168": {
-      "callbacks": {}
-    },
-    "Button13": {
+    "Button37": {
       "custom": {
         "text": "Become a TravelTeller"
       },
@@ -2453,7 +4046,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox299": {
+    "TextBox657": {
       "custom": {
         "text": "Sign In"
       },
@@ -2465,7 +4058,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox300": {
+    "TextBox658": {
       "custom": {
         "text": "Contact"
       },
@@ -2480,19 +4073,22 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox301": {
+    "TextBox659": {
       "custom": {
         "text": "Shop"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
           }
         ]
       }
     },
-    "TextBox302": {
+    "TextBox660": {
       "custom": {
         "text": "Explore"
       },
@@ -2504,7 +4100,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image125": {
+    "Image262": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
@@ -2520,7 +4116,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox339": {
+    "TextBox661": {
       "custom": {
         "text": "Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a class is added to the rich text element using the \"When inside of\" nested selector system. A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel."
       },
@@ -2532,7 +4128,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox340": {
+    "TextBox662": {
       "custom": {
         "text": "How to customize formatting for each rich text"
       },
@@ -2544,7 +4140,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox341": {
+    "TextBox663": {
       "custom": {
         "text": "Static and dynamic content editing"
       },
@@ -2556,7 +4152,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox342": {
+    "TextBox664": {
       "custom": {
         "text": "Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a class is added to the rich text element using the \"When inside of\" nested selector system. A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila!"
       },
@@ -2568,7 +4164,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox343": {
+    "TextBox665": {
       "custom": {
         "text": "Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a class is added to the rich text element using the \"When inside of\" nested selector system. A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a class is added to the rich text element using the \"When inside of\" nested selector system. A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel."
       },
@@ -2580,7 +4176,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox344": {
+    "TextBox666": {
       "custom": {
         "text": "How to customize formatting for each rich text"
       },
@@ -2592,7 +4188,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox345": {
+    "TextBox667": {
       "custom": {
         "text": "Static and dynamic content editing"
       },
@@ -2604,7 +4200,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox346": {
+    "TextBox668": {
       "custom": {
         "text": "A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila!"
       },
@@ -2616,7 +4212,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox347": {
+    "TextBox669": {
       "custom": {
         "text": "The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content."
       },
@@ -2628,7 +4224,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox348": {
+    "TextBox670": {
       "custom": {
         "text": "What’s a Rich Text element?"
       },
@@ -2640,7 +4236,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox349": {
+    "TextBox671": {
       "custom": {
         "text": "Last Updated: September, 27 2019"
       },
@@ -2652,9 +4248,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox350": {
+    "TextBox672": {
       "custom": {
-        "text": "Private Policy"
+        "text": "Privacy Policy"
       },
       "callbacks": {
         "onClick": [
@@ -2664,7 +4260,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image130": {
+    "Image267": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/celebrations.svg"
@@ -2677,22 +4273,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox351": {
-      "custom": {
-        "text": "Terms and Conditions"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/terms"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox352": {
+    "TextBox673": {
       "custom": {
         "text": "Privacy Policy"
       },
@@ -2707,7 +4288,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox353": {
+    "TextBox674": {
       "custom": {
         "text": "Contact"
       },
@@ -2722,7 +4303,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox354": {
+    "TextBox675": {
       "custom": {
         "text": "Shop"
       },
@@ -2731,28 +4312,28 @@ const desktopModeProps = {
           {
             "navigate": {
               "type": "internal",
-              "url": "/shop "
+              "url": "/shop"
             }
           }
         ]
       }
     },
-    "TextBox355": {
+    "TextBox676": {
       "custom": {
-        "text": "Videos"
+        "text": "Terms & Conditions"
       },
       "callbacks": {
         "onClick": [
           {
             "navigate": {
               "type": "internal",
-              "url": "/videos"
+              "url": "/terms"
             }
           }
         ]
       }
     },
-    "TextBox356": {
+    "TextBox677": {
       "custom": {
         "text": "TravelTellers"
       },
@@ -2767,7 +4348,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox357": {
+    "TextBox678": {
       "custom": {
         "text": "Places"
       },
@@ -2782,7 +4363,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox358": {
+    "TextBox679": {
       "custom": {
         "text": "Blog"
       },
@@ -2797,163 +4378,22 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image129": {
+    "TextBox680": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image126": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/twitter.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image127": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/linkedin.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image128": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/facebook.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    }
-  },
-  "terms": {
-    "Body_TnC": {
-      "callbacks": {}
-    },
-    "Flex157": {
-      "callbacks": {}
-    },
-    "Flex155": {
-      "callbacks": {}
-    },
-    "Flex156": {
-      "callbacks": {}
-    },
-    "Div138": {
-      "callbacks": {}
-    },
-    "Div143": {
-      "callbacks": {}
-    },
-    "Flex163": {
-      "callbacks": {}
-    },
-    "Div144": {
-      "callbacks": {}
-    },
-    "Flex162": {
-      "callbacks": {}
-    },
-    "Flex159": {
-      "callbacks": {}
-    },
-    "Flex160": {
-      "callbacks": {}
-    },
-    "Flex161": {
-      "callbacks": {}
-    },
-    "Flex158": {
-      "callbacks": {}
-    },
-    "Button12": {
-      "custom": {
-        "text": "Become a TravelTeller"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox227": {
-      "custom": {
-        "text": "Sign In"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox228": {
-      "custom": {
-        "text": "Contact"
+        "text": "Videos"
       },
       "callbacks": {
         "onClick": [
           {
             "navigate": {
               "type": "internal",
-              "url": "/contact"
+              "url": "/videos"
             }
           }
         ]
       }
     },
-    "TextBox229": {
-      "custom": {
-        "text": "Shop"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox230": {
-      "custom": {
-        "text": "Explore"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image119": {
+    "Image263": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
@@ -2969,7 +4409,169 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox279": {
+    "Image264": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/twitter.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.twitter.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image265": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/linkedin.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.linkedin.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image266": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/facebook.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.facebook.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "terms": {
+    "Flex355": {
+      "callbacks": {}
+    },
+    "Flex356": {
+      "callbacks": {}
+    },
+    "Div226": {
+      "callbacks": {}
+    },
+    "Flex376": {
+      "callbacks": {}
+    },
+    "Flex373": {
+      "callbacks": {}
+    },
+    "Flex371": {
+      "callbacks": {}
+    },
+    "Flex372": {
+      "callbacks": {}
+    },
+    "Flex374": {
+      "callbacks": {}
+    },
+    "Flex375": {
+      "callbacks": {}
+    },
+    "Button36": {
+      "custom": {
+        "text": "Become a TravelTeller"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox633": {
+      "custom": {
+        "text": "Sign In"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox634": {
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/contact"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox635": {
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox636": {
+      "custom": {
+        "text": "Explore"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image256": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox637": {
       "custom": {
         "text": "Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a class is added to the rich text element using the \"When inside of\" nested selector system. A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel."
       },
@@ -2981,7 +4583,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox280": {
+    "TextBox638": {
       "custom": {
         "text": "How to customize formatting for each rich text"
       },
@@ -2993,7 +4595,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox281": {
+    "TextBox639": {
       "custom": {
         "text": "Static and dynamic content editing"
       },
@@ -3005,7 +4607,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox282": {
+    "TextBox640": {
       "custom": {
         "text": "Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a class is added to the rich text element using the \"When inside of\" nested selector system. A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila!"
       },
@@ -3017,7 +4619,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox283": {
+    "TextBox641": {
       "custom": {
         "text": "Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a class is added to the rich text element using the \"When inside of\" nested selector system. A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! Headings, paragraphs, blockquotes, figures, images, and figure captions can all be styled after a class is added to the rich text element using the \"When inside of\" nested selector system. A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila! A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel."
       },
@@ -3029,7 +4631,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox284": {
+    "TextBox642": {
       "custom": {
         "text": "How to customize formatting for each rich text"
       },
@@ -3041,7 +4643,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox285": {
+    "TextBox643": {
       "custom": {
         "text": "Static and dynamic content editing"
       },
@@ -3053,7 +4655,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox286": {
+    "TextBox644": {
       "custom": {
         "text": "A rich text element can be used with static or dynamic content. For static content, just drop it into any page and begin editing. For dynamic content, add a rich text field to any collection and then connect a rich text element to that field in the settings panel. Voila!"
       },
@@ -3065,7 +4667,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox287": {
+    "TextBox645": {
       "custom": {
         "text": "The rich text element allows you to create and format headings, paragraphs, blockquotes, images, and video all in one place instead of having to add and format them individually. Just double-click and easily create content."
       },
@@ -3077,7 +4679,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox288": {
+    "TextBox646": {
       "custom": {
         "text": "What’s a Rich Text element?"
       },
@@ -3089,7 +4691,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox289": {
+    "TextBox647": {
       "custom": {
         "text": "Last Updated: September, 27 2019"
       },
@@ -3101,7 +4703,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox290": {
+    "TextBox648": {
       "custom": {
         "text": "Terms & Conditions"
       },
@@ -3113,7 +4715,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image124": {
+    "Image272": {
       "custom": {
         "alt": "No preview available",
         "src": "/app-assets/celebrations.svg"
@@ -3126,67 +4728,74 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox291": {
+    "Image268": {
       "custom": {
-        "text": "Terms and Conditions"
+        "alt": "No preview available",
+        "src": "/app-assets/facebook.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.facebook.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image269": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/linkedin.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.linkedin.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image270": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/twitter.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.twitter.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image271": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
       },
       "callbacks": {
         "onClick": [
           {
             "navigate": {
               "type": "internal",
-              "url": "/terms"
+              "url": "/"
             }
           }
         ]
       }
     },
-    "TextBox292": {
-      "custom": {
-        "text": "Privacy Policy"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/privacy-policy"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox293": {
-      "custom": {
-        "text": "Contact"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/contact"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox294": {
-      "custom": {
-        "text": "Shop"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/shop "
-            }
-          }
-        ]
-      }
-    },
-    "TextBox295": {
+    "TextBox681": {
       "custom": {
         "text": "Videos"
       },
@@ -3201,37 +4810,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox296": {
-      "custom": {
-        "text": "TravelTellers"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/traveltellers"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox297": {
-      "custom": {
-        "text": "Places"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/places"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox298": {
+    "TextBox682": {
       "custom": {
         "text": "Blog"
       },
@@ -3246,54 +4825,92 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image123": {
+    "TextBox683": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+        "text": "Places"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/places"
+            }
           }
         ]
       }
     },
-    "Image120": {
+    "TextBox684": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/twitter.png"
+        "text": "TravelTellers"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/traveltellers"
+            }
           }
         ]
       }
     },
-    "Image121": {
+    "TextBox685": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/linkedin.png"
+        "text": "Terms & Conditions"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/terms"
+            }
           }
         ]
       }
     },
-    "Image122": {
+    "TextBox686": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/facebook.png"
+        "text": "Shop"
       },
       "callbacks": {
         "onClick": [
           {
-            "sendEventData": true
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox687": {
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/contact"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox688": {
+      "custom": {
+        "text": "Privacy Policy"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/privacy-policy"
+            }
           }
         ]
       }
@@ -3301,18 +4918,6 @@ const desktopModeProps = {
   },
   "shop": {
     "Shop": {
-      "callbacks": {}
-    },
-    "Flex313": {
-      "callbacks": {}
-    },
-    "Flex311": {
-      "callbacks": {}
-    },
-    "Flex312": {
-      "callbacks": {}
-    },
-    "Div210": {
       "callbacks": {}
     },
     "Flex317": {
@@ -3342,108 +4947,29 @@ const desktopModeProps = {
     "Flex316": {
       "callbacks": {}
     },
-    "Flex323": {
+    "Flex429": {
       "callbacks": {}
     },
-    "Div216": {
+    "Flex422": {
       "callbacks": {}
     },
-    "Flex322": {
+    "Flex428": {
       "callbacks": {}
     },
-    "Flex319": {
+    "Flex425": {
       "callbacks": {}
     },
-    "Flex320": {
+    "Flex423": {
       "callbacks": {}
     },
-    "Flex321": {
+    "Flex424": {
       "callbacks": {}
     },
-    "Flex318": {
+    "Flex426": {
       "callbacks": {}
     },
-    "Button26": {
-      "custom": {
-        "text": "Become a TravelTeller"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox544": {
-      "custom": {
-        "text": "Sign In"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox545": {
-      "custom": {
-        "text": "Contact"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/contact"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox546": {
-      "custom": {
-        "text": "Shop"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/shop"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox547": {
-      "custom": {
-        "text": "Explore"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "Image212": {
-      "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/"
-            }
-          }
-        ]
-      }
+    "Flex427": {
+      "callbacks": {}
     },
     "TextBox558": {
       "custom": {
@@ -3642,42 +5168,6 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox559": {
-      "custom": {
-        "text": "Extras"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox560": {
-      "custom": {
-        "text": "Essentials"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
-    "TextBox561": {
-      "custom": {
-        "text": "Packages"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "sendEventData": true
-          }
-        ]
-      }
-    },
     "TextBox562": {
       "custom": {
         "text": "Shop By Category"
@@ -3690,10 +5180,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image222": {
+    "TextBox752": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/celebrations.svg"
+        "text": "Essentials"
       },
       "callbacks": {
         "onClick": [
@@ -3703,37 +5192,55 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox563": {
+    "TextBox754": {
       "custom": {
-        "text": "Terms and Conditions"
+        "text": "Packages"
       },
       "callbacks": {
         "onClick": [
           {
-            "navigate": {
-              "type": "internal",
-              "url": "/terms"
-            }
+            "sendEventData": true
           }
         ]
       }
     },
-    "TextBox564": {
+    "TextBox755": {
       "custom": {
-        "text": "Privacy Policy"
+        "text": "Extras"
       },
       "callbacks": {
         "onClick": [
           {
-            "navigate": {
-              "type": "internal",
-              "url": "/privacy-policy"
-            }
+            "sendEventData": true
           }
         ]
       }
     },
-    "TextBox565": {
+    "Button41": {
+      "custom": {
+        "text": "Become a TravelTeller"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox739": {
+      "custom": {
+        "text": "Sign In"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox740": {
       "custom": {
         "text": "Contact"
       },
@@ -3748,7 +5255,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox566": {
+    "TextBox741": {
       "custom": {
         "text": "Shop"
       },
@@ -3763,7 +5270,115 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox567": {
+    "TextBox742": {
+      "custom": {
+        "text": "Explore"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image297": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "Image302": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/celebrations.svg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image298": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/facebook.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.facebook.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image299": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/linkedin.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.linkedin.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image300": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/twitter.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "external",
+              "url": "www.twitter.com",
+              "target": "_blank"
+            }
+          }
+        ]
+      }
+    },
+    "Image301": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox743": {
       "custom": {
         "text": "Videos"
       },
@@ -3778,37 +5393,7 @@ const desktopModeProps = {
         ]
       }
     },
-    "TextBox568": {
-      "custom": {
-        "text": "TravelTellers"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/traveltellers"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox569": {
-      "custom": {
-        "text": "Places"
-      },
-      "callbacks": {
-        "onClick": [
-          {
-            "navigate": {
-              "type": "internal",
-              "url": "/places"
-            }
-          }
-        ]
-      }
-    },
-    "TextBox570": {
+    "TextBox744": {
       "custom": {
         "text": "Blog"
       },
@@ -3823,10 +5408,129 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image221": {
+    "TextBox745": {
+      "custom": {
+        "text": "Places"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/places"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox746": {
+      "custom": {
+        "text": "TravelTellers"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/traveltellers"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox747": {
+      "custom": {
+        "text": "Terms & Conditions"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/terms"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox748": {
+      "custom": {
+        "text": "Shop"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/shop"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox749": {
+      "custom": {
+        "text": "Contact"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/contact"
+            }
+          }
+        ]
+      }
+    },
+    "TextBox750": {
+      "custom": {
+        "text": "Privacy Policy"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "navigate": {
+              "type": "internal",
+              "url": "/privacy-policy"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "temp": {
+    "Flex723": {
+      "callbacks": {}
+    },
+    "Div261": {
+      "callbacks": {}
+    },
+    "Flex724": {
+      "callbacks": {}
+    },
+    "Flex725": {
+      "callbacks": {}
+    },
+    "Div262": {
+      "callbacks": {}
+    },
+    "Div263": {
+      "callbacks": {}
+    },
+    "Div264": {
+      "callbacks": {}
+    },
+    "Div265": {
+      "callbacks": {}
+    },
+    "Div266": {
+      "callbacks": {}
+    },
+    "Image508": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/5ed472c3a90a9c93ed22d1e1_TravelTell_Dark_Logo.png"
+        "src": "/app-assets/home_page.jpg"
       },
       "callbacks": {
         "onClick": [
@@ -3836,10 +5540,9 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image218": {
+    "TextBox1080": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/twitter.png"
+        "text": "A community of travellers and story tellers"
       },
       "callbacks": {
         "onClick": [
@@ -3849,10 +5552,16 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image219": {
+    "Input87": {
       "custom": {
-        "alt": "No preview available",
-        "src": "/app-assets/linkedin.png"
+        "value": "",
+        "placeholder": "Search"
+      },
+      "callbacks": {}
+    },
+    "TextBox1081": {
+      "custom": {
+        "text": "Featured Posts"
       },
       "callbacks": {
         "onClick": [
@@ -3862,10 +5571,223 @@ const desktopModeProps = {
         ]
       }
     },
-    "Image220": {
+    "TextBox1082": {
+      "custom": {
+        "text": "Japan Like you've never seen before"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image514": {
       "custom": {
         "alt": "No preview available",
-        "src": "/app-assets/facebook.png"
+        "src": "/app-assets/pic1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1084": {
+      "custom": {
+        "text": "Japan Like you've never seen before"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image518": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story3.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image511": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1083": {
+      "custom": {
+        "text": "Africa's People and Culture"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image515": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic2.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image512": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story2.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image516": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic3.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1086": {
+      "custom": {
+        "text": "India's People, Places and Events"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image519": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story3.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1087": {
+      "custom": {
+        "text": "Japan Like you've never seen before"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image520": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1088": {
+      "custom": {
+        "text": "Japan Like you've never seen before"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image521": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/story3.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1089": {
+      "custom": {
+        "text": "Japan Like you've never seen before"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "Image522": {
+      "custom": {
+        "alt": "No preview available",
+        "src": "/app-assets/pic1.jpg"
+      },
+      "callbacks": {
+        "onClick": [
+          {
+            "sendEventData": true
+          }
+        ]
+      }
+    },
+    "TextBox1090": {
+      "custom": {
+        "text": "Japan Like you've never seen before"
       },
       "callbacks": {
         "onClick": [
@@ -3875,8 +5797,7 @@ const desktopModeProps = {
         ]
       }
     }
-  },
-  "temp": {}
+  }
 }};
 
 useStore.setState(desktopModeProps);

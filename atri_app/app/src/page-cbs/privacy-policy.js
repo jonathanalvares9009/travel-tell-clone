@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import { callbackFactory } from "../utils/callbackFactory";
-export function usePrivacy_BodyCb() {
-	const onClick = useCallback(callbackFactory("Privacy_Body", "privacy-policy", "/privacy-policy", "onClick", 
+export function usePrivacy_PolicyCb() {
+	const onClick = useCallback(callbackFactory("Privacy_Policy", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [],
   "actions": [
@@ -12,8 +12,8 @@ export function usePrivacy_BodyCb() {
 }), [])
 	return { onClick }
 }
-export function useButton13Cb() {
-	const onClick = useCallback(callbackFactory("Button13", "privacy-policy", "/privacy-policy", "onClick", 
+export function useButton37Cb() {
+	const onClick = useCallback(callbackFactory("Button37", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [
     {
@@ -28,8 +28,8 @@ export function useButton13Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox299Cb() {
-	const onClick = useCallback(callbackFactory("TextBox299", "privacy-policy", "/privacy-policy", "onClick", 
+export function useTextBox657Cb() {
+	const onClick = useCallback(callbackFactory("TextBox657", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [
     {
@@ -44,8 +44,8 @@ export function useTextBox299Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox300Cb() {
-	const onClick = useCallback(callbackFactory("TextBox300", "privacy-policy", "/privacy-policy", "onClick", 
+export function useTextBox658Cb() {
+	const onClick = useCallback(callbackFactory("TextBox658", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [
     {
@@ -63,8 +63,27 @@ export function useTextBox300Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox301Cb() {
-	const onClick = useCallback(callbackFactory("TextBox301", "privacy-policy", "/privacy-policy", "onClick", 
+export function useTextBox659Cb() {
+	const onClick = useCallback(callbackFactory("TextBox659", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/shop"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox660Cb() {
+	const onClick = useCallback(callbackFactory("TextBox660", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [
     {
@@ -79,24 +98,8 @@ export function useTextBox301Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox302Cb() {
-	const onClick = useCallback(callbackFactory("TextBox302", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useImage125Cb() {
-	const onClick = useCallback(callbackFactory("Image125", "privacy-policy", "/privacy-policy", "onClick", 
+export function useImage262Cb() {
+	const onClick = useCallback(callbackFactory("Image262", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [
     {
@@ -114,8 +117,8 @@ export function useImage125Cb() {
 }), [])
 	return { onClick }
 }
-export function useFlex165Cb() {
-	const onClick = useCallback(callbackFactory("Flex165", "privacy-policy", "/privacy-policy", "onClick", 
+export function useFlex364Cb() {
+	const onClick = useCallback(callbackFactory("Flex364", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [],
   "actions": [
@@ -126,8 +129,200 @@ export function useFlex165Cb() {
 }), [])
 	return { onClick }
 }
-export function useFlex166Cb() {
-	const onClick = useCallback(callbackFactory("Flex166", "privacy-policy", "/privacy-policy", "onClick", 
+export function useTextBox661Cb() {
+	const onClick = useCallback(callbackFactory("TextBox661", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox662Cb() {
+	const onClick = useCallback(callbackFactory("TextBox662", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox663Cb() {
+	const onClick = useCallback(callbackFactory("TextBox663", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox664Cb() {
+	const onClick = useCallback(callbackFactory("TextBox664", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox665Cb() {
+	const onClick = useCallback(callbackFactory("TextBox665", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox666Cb() {
+	const onClick = useCallback(callbackFactory("TextBox666", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox667Cb() {
+	const onClick = useCallback(callbackFactory("TextBox667", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox668Cb() {
+	const onClick = useCallback(callbackFactory("TextBox668", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox669Cb() {
+	const onClick = useCallback(callbackFactory("TextBox669", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox670Cb() {
+	const onClick = useCallback(callbackFactory("TextBox670", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox671Cb() {
+	const onClick = useCallback(callbackFactory("TextBox671", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox672Cb() {
+	const onClick = useCallback(callbackFactory("TextBox672", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "sendEventData": true
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useDiv227Cb() {
+	const onClick = useCallback(callbackFactory("Div227", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [],
   "actions": [
@@ -138,290 +333,14 @@ export function useFlex166Cb() {
 }), [])
 	return { onClick }
 }
-export function useDiv145Cb() {
-	const onClick = useCallback(callbackFactory("Div145", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex167Cb() {
-	const onClick = useCallback(callbackFactory("Flex167", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox339Cb() {
-	const onClick = useCallback(callbackFactory("TextBox339", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox340Cb() {
-	const onClick = useCallback(callbackFactory("TextBox340", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox341Cb() {
-	const onClick = useCallback(callbackFactory("TextBox341", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox342Cb() {
-	const onClick = useCallback(callbackFactory("TextBox342", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox343Cb() {
-	const onClick = useCallback(callbackFactory("TextBox343", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox344Cb() {
-	const onClick = useCallback(callbackFactory("TextBox344", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox345Cb() {
-	const onClick = useCallback(callbackFactory("TextBox345", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox346Cb() {
-	const onClick = useCallback(callbackFactory("TextBox346", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox347Cb() {
-	const onClick = useCallback(callbackFactory("TextBox347", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox348Cb() {
-	const onClick = useCallback(callbackFactory("TextBox348", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox349Cb() {
-	const onClick = useCallback(callbackFactory("TextBox349", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox350Cb() {
-	const onClick = useCallback(callbackFactory("TextBox350", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useDiv149Cb() {
-	const onClick = useCallback(callbackFactory("Div149", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useImage126Cb() {
-	const onClick = useCallback(callbackFactory("Image126", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useImage127Cb() {
-	const onClick = useCallback(callbackFactory("Image127", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useImage128Cb() {
-	const onClick = useCallback(callbackFactory("Image128", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useTextBox351Cb() {
-	const onClick = useCallback(callbackFactory("TextBox351", "privacy-policy", "/privacy-policy", "onClick", 
+export function useImage263Cb() {
+	const onClick = useCallback(callbackFactory("Image263", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [
     {
       "navigate": {
         "type": "internal",
-        "url": "/terms"
+        "url": "/"
       }
     }
   ],
@@ -433,8 +352,68 @@ export function useTextBox351Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox352Cb() {
-	const onClick = useCallback(callbackFactory("TextBox352", "privacy-policy", "/privacy-policy", "onClick", 
+export function useImage264Cb() {
+	const onClick = useCallback(callbackFactory("Image264", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "www.twitter.com",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage265Cb() {
+	const onClick = useCallback(callbackFactory("Image265", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "www.linkedin.com",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage266Cb() {
+	const onClick = useCallback(callbackFactory("Image266", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "external",
+        "url": "www.facebook.com",
+        "target": "_blank"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useTextBox673Cb() {
+	const onClick = useCallback(callbackFactory("TextBox673", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [
     {
@@ -452,8 +431,8 @@ export function useTextBox352Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox353Cb() {
-	const onClick = useCallback(callbackFactory("TextBox353", "privacy-policy", "/privacy-policy", "onClick", 
+export function useTextBox674Cb() {
+	const onClick = useCallback(callbackFactory("TextBox674", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [
     {
@@ -471,14 +450,14 @@ export function useTextBox353Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox354Cb() {
-	const onClick = useCallback(callbackFactory("TextBox354", "privacy-policy", "/privacy-policy", "onClick", 
+export function useTextBox675Cb() {
+	const onClick = useCallback(callbackFactory("TextBox675", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [
     {
       "navigate": {
         "type": "internal",
-        "url": "/shop "
+        "url": "/shop"
       }
     }
   ],
@@ -490,14 +469,14 @@ export function useTextBox354Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox355Cb() {
-	const onClick = useCallback(callbackFactory("TextBox355", "privacy-policy", "/privacy-policy", "onClick", 
+export function useTextBox676Cb() {
+	const onClick = useCallback(callbackFactory("TextBox676", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [
     {
       "navigate": {
         "type": "internal",
-        "url": "/videos"
+        "url": "/terms"
       }
     }
   ],
@@ -509,8 +488,8 @@ export function useTextBox355Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox356Cb() {
-	const onClick = useCallback(callbackFactory("TextBox356", "privacy-policy", "/privacy-policy", "onClick", 
+export function useTextBox677Cb() {
+	const onClick = useCallback(callbackFactory("TextBox677", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [
     {
@@ -528,8 +507,8 @@ export function useTextBox356Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox357Cb() {
-	const onClick = useCallback(callbackFactory("TextBox357", "privacy-policy", "/privacy-policy", "onClick", 
+export function useTextBox678Cb() {
+	const onClick = useCallback(callbackFactory("TextBox678", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [
     {
@@ -547,8 +526,8 @@ export function useTextBox357Cb() {
 }), [])
 	return { onClick }
 }
-export function useTextBox358Cb() {
-	const onClick = useCallback(callbackFactory("TextBox358", "privacy-policy", "/privacy-policy", "onClick", 
+export function useTextBox679Cb() {
+	const onClick = useCallback(callbackFactory("TextBox679", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [
     {
@@ -566,8 +545,27 @@ export function useTextBox358Cb() {
 }), [])
 	return { onClick }
 }
-export function useFlex168Cb() {
-	const onClick = useCallback(callbackFactory("Flex168", "privacy-policy", "/privacy-policy", "onClick", 
+export function useTextBox680Cb() {
+	const onClick = useCallback(callbackFactory("TextBox680", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [
+    {
+      "navigate": {
+        "type": "internal",
+        "url": "/videos"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useFlex365Cb() {
+	const onClick = useCallback(callbackFactory("Flex365", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [],
   "actions": [
@@ -578,8 +576,20 @@ export function useFlex168Cb() {
 }), [])
 	return { onClick }
 }
-export function useImage129Cb() {
-	const onClick = useCallback(callbackFactory("Image129", "privacy-policy", "/privacy-policy", "onClick", 
+export function useFlex366Cb() {
+	const onClick = useCallback(callbackFactory("Flex366", "privacy-policy", "/privacy-policy", "onClick", 
+			{
+  "handlers": [],
+  "actions": [
+    {
+      "type": "do_nothing"
+    }
+  ]
+}), [])
+	return { onClick }
+}
+export function useImage267Cb() {
+	const onClick = useCallback(callbackFactory("Image267", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [
     {
@@ -594,24 +604,8 @@ export function useImage129Cb() {
 }), [])
 	return { onClick }
 }
-export function useImage130Cb() {
-	const onClick = useCallback(callbackFactory("Image130", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [
-    {
-      "sendEventData": true
-    }
-  ],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex169Cb() {
-	const onClick = useCallback(callbackFactory("Flex169", "privacy-policy", "/privacy-policy", "onClick", 
+export function useFlex367Cb() {
+	const onClick = useCallback(callbackFactory("Flex367", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [],
   "actions": [
@@ -622,8 +616,8 @@ export function useFlex169Cb() {
 }), [])
 	return { onClick }
 }
-export function useFlex170Cb() {
-	const onClick = useCallback(callbackFactory("Flex170", "privacy-policy", "/privacy-policy", "onClick", 
+export function useFlex368Cb() {
+	const onClick = useCallback(callbackFactory("Flex368", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [],
   "actions": [
@@ -634,8 +628,8 @@ export function useFlex170Cb() {
 }), [])
 	return { onClick }
 }
-export function useFlex171Cb() {
-	const onClick = useCallback(callbackFactory("Flex171", "privacy-policy", "/privacy-policy", "onClick", 
+export function useFlex369Cb() {
+	const onClick = useCallback(callbackFactory("Flex369", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [],
   "actions": [
@@ -646,32 +640,8 @@ export function useFlex171Cb() {
 }), [])
 	return { onClick }
 }
-export function useDiv150Cb() {
-	const onClick = useCallback(callbackFactory("Div150", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex172Cb() {
-	const onClick = useCallback(callbackFactory("Flex172", "privacy-policy", "/privacy-policy", "onClick", 
-			{
-  "handlers": [],
-  "actions": [
-    {
-      "type": "do_nothing"
-    }
-  ]
-}), [])
-	return { onClick }
-}
-export function useFlex173Cb() {
-	const onClick = useCallback(callbackFactory("Flex173", "privacy-policy", "/privacy-policy", "onClick", 
+export function useFlex370Cb() {
+	const onClick = useCallback(callbackFactory("Flex370", "privacy-policy", "/privacy-policy", "onClick", 
 			{
   "handlers": [],
   "actions": [
